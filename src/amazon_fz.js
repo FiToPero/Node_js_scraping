@@ -43,7 +43,7 @@ async function handleDynamicWebPage() {
   //   password,
   // })
 
-  console.log("🌐 Accediendo a Amazon directamente (sin proxy)...");
+  console.log(" Accediendo a Amazon directamente (sin proxy)...");
   await page.goto(URL, { waitUntil: "networkidle2" });
 
   const title = await page.title();
@@ -53,7 +53,7 @@ async function handleDynamicWebPage() {
   let nextPage = true
 
   while (nextPage) {
-    console.log("🔍 Buscando productos en la página...");
+    console.log(" Buscando productos en la página...");
 
     const newProducts = await page.evaluate(() => {
       // Intentar diferentes selectores para productos de Amazon
@@ -127,26 +127,26 @@ async function handleDynamicWebPage() {
       });
     });
 
-    console.log(`✅ Productos extraídos de esta página: ${newProducts.length}`);
+    console.log(` Productos extraídos de esta página: ${newProducts.length}`);
     
     // Mostrar algunos productos para debugging
     if (newProducts.length > 0) {
-      console.log("📋 Primeros 3 productos encontrados:");
+      console.log(" Primeros 3 productos encontrados:");
       newProducts.slice(0, 3).forEach((product, i) => {
         console.log(`  ${i + 1}. ${product.title} - ${product.price}`);
       });
     } else {
-      console.log("❌ No se encontraron productos en esta página");
+      console.log(" No se encontraron productos en esta página");
       
       // Tomar screenshot para debugging
       await page.screenshot({ path: 'debug-amazon.png', fullPage: true });
-      console.log("📸 Screenshot guardado como debug-amazon.png");
+      console.log(" Screenshot guardado como debug-amazon.png");
       
       // Mostrar el HTML de la página para debugging
       const bodyHTML = await page.evaluate(() => {
         return document.body.innerHTML.substring(0, 1000) + "...";
       });
-      console.log("📄 Muestra del HTML de la página:", bodyHTML);
+      console.log(" Muestra del HTML de la página:", bodyHTML);
     }
 
     products = [...products, ...newProducts];
@@ -168,16 +168,16 @@ async function handleDynamicWebPage() {
     await new Promise((resolve) => setTimeout(resolve, 2000));
   }
 
-  console.log(`🎯 RESUMEN FINAL:`);
-  console.log(`📊 Total de productos encontrados: ${products.length}`);
+  console.log(` RESUMEN FINAL:`);
+  console.log(` Total de productos encontrados: ${products.length}`);
   
   if (products.length > 0) {
-    console.log(`📋 Primeros 5 productos:`);
+    console.log(` Primeros 5 productos:`);
     products.slice(0, 5).forEach((product, i) => {
       console.log(`  ${i + 1}. ${product.title} - ${product.price}`);
     });
   } else {
-    console.log(`❌ No se encontraron productos. Posibles causas:`);
+    console.log(` No se encontraron productos. Posibles causas:`);
     console.log(`   • Amazon está bloqueando el bot`);
     console.log(`   • Los selectores CSS han cambiado`);
     console.log(`   • El proxy no está funcionando`);
@@ -196,9 +196,9 @@ async function handleDynamicWebPage() {
 // Ejecutar con manejo de errores global
 handleDynamicWebPage()
     .then(() => {
-        console.log("🎉 Proceso completado exitosamente")
+        console.log(" Proceso completado exitosamente")
     })
     .catch((error) => {
-        console.error("💥 Error general:", error)
+        console.error(" Error general:", error)
         process.exit(1)
     })

@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-08-11T04:02:55.492Z",
+  "source": "MercadoLibre Argentina",
+  "url": "https://www.mercadolibre.com.ar/",
+  "total_categorias": 10,
+  "total_subcategorias": 0,
+  "categorias": [
+    {
+      "title": "Inmuebles",
+      "url": "https://www.mercadolibre.com.ar/inmuebles/#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Tecnología",
+      "url": "https://www.mercadolibre.com.ar/#/",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Hogar y Muebles",
+      "url": "https://www.mercadolibre.com.ar/c/hogar-muebles-y-jardin#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Electrodomésticos",
+      "url": "https://www.mercadolibre.com.ar/c/electrodomesticos-y-aires-ac#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Herramientas",
+      "url": "https://www.mercadolibre.com.ar/c/herramientas#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Construcción",
+      "url": "https://www.mercadolibre.com.ar/c/construccion#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Deportes y Fitness",
+      "url": "https://www.mercadolibre.com.ar/c/deportes-y-fitness#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Accesorios para Vehículos",
+      "url": "https://www.mercadolibre.com.ar/c/accesorios-para-vehiculos#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Mascotas",
+      "url": "https://www.mercadolibre.com.ar/c/animales-y-mascotas#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    },
+    {
+      "title": "Moda",
+      "url": "https://www.mercadolibre.com.ar/c/ropa-y-accesorios#menu=categories",
+      "subcategorias": [],
+      "total_subcategorias": 0
+    }
+  ]
+}

@@ -22,7 +22,7 @@ async function handleDynamicWebPage() {
             '--disable-renderer-backgrounding',
             '--disable-features=TranslateUI',
             '--disable-ipc-flooding-protection',
-            //  Configuraciones adicionales anti-detección
+            // ✅ Configuraciones adicionales anti-detección
             '--disable-web-security',
             '--disable-features=VizDisplayCompositor',
             '--window-size=1366,768',
@@ -33,47 +33,47 @@ async function handleDynamicWebPage() {
     
     const page = await browser.newPage()
 
-    //  Configuraciones adicionales de la página
+    // ✅ Configuraciones adicionales de la página
     await page.setViewport({ width: 1366, height: 768 })
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
     
-    //  Configurar headers adicionales
+    // ✅ Configurar headers adicionales
     await page.setExtraHTTPHeaders({
         'Accept-Language': 'es-AR,es;q=0.9,en;q=0.8',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     })
 
-    console.log(" Intentando acceder a MercadoLibre con configuración mejorada...")
+    console.log("🌐 Intentando acceder a MercadoLibre con configuración mejorada...")
     
     try {
         await page.goto('https://www.mercadolibre.com.ar', { 
             waitUntil: 'networkidle2',
             timeout: 30000 
         })
-        console.log(" Página cargada correctamente")
+        console.log("✅ Página cargada correctamente")
     } catch (error) {
-        console.log(" Error cargando página:", error.message)
-        console.log(" Intentando con mercadolibre.com...")
+        console.log("❌ Error cargando página:", error.message)
+        console.log("🔄 Intentando con mercadolibre.com...")
         await page.goto('https://www.mercadolibre.com', { 
             waitUntil: 'networkidle2',
             timeout: 30000 
         })
     }
 
-    //  Esperar a que la página se estabilice completamente
-    console.log(" Esperando a que la página se estabilice...")
+    // ⏳ Esperar a que la página se estabilice completamente
+    console.log("⏳ Esperando a que la página se estabilice...")
     await new Promise(resolve => setTimeout(resolve, 3000))
 
 
-    //  Primero verificar que la página cargó correctamente
+    // � Primero verificar que la página cargó correctamente
     const currentUrl = await page.url()
     const title = await page.title()
-    console.log(` URL actual: ${currentUrl}`)
-    console.log(` Título: ${title}`)
+    console.log(`📄 URL actual: ${currentUrl}`)
+    console.log(`📋 Título: ${title}`)
 
     // Si la URL contiene "mercadolibre", procedemos
     if (currentUrl.includes('mercadolibre')) {
-        console.log(" Acceso exitoso a MercadoLibre, extrayendo enlaces...")
+        console.log("✅ Acceso exitoso a MercadoLibre, extrayendo enlaces...")
         
         // Método más simple: buscar enlaces directamente
         const categoryLinks = await page.$$eval('a', links => {
@@ -93,22 +93,22 @@ async function handleDynamicWebPage() {
                 }))
         })
         
-        console.log(` Enlaces de categorías encontrados: ${categoryLinks.length}`)
+        console.log(`🔍 Enlaces de categorías encontrados: ${categoryLinks.length}`)
         console.log(categoryLinks)
         
-        //  Extraer subcategorías de cada categoría
-        console.log(" Extrayendo subcategorías de cada categoría...")
+        // � Extraer subcategorías de cada categoría
+        console.log("🔄 Extrayendo subcategorías de cada categoría...")
         
         const categoriasConSubcategorias = []
         
         for (let i = 0; i < categoryLinks.length; i++) {
             const categoria = categoryLinks[i]
-            console.log(`\n ${i + 1}/${categoryLinks.length} - Procesando: ${categoria.title}`)
+            console.log(`\n📂 ${i + 1}/${categoryLinks.length} - Procesando: ${categoria.title}`)
             
             try {
                 // Solo procesar URLs que parecen ser categorías válidas (contienen /c/)
                 if (!categoria.url.includes('/c/')) {
-                    console.log(` Saltando ${categoria.title} - No es una categoría válida`)
+                    console.log(`⏩ Saltando ${categoria.title} - No es una categoría válida`)
                     categoriasConSubcategorias.push({
                         ...categoria,
                         subcategorias: [],
@@ -193,7 +193,7 @@ async function handleDynamicWebPage() {
                 })
                 
             } catch (error) {
-                console.log(`    Error procesando ${categoria.title}: ${error.message}`)
+                console.log(`   ❌ Error procesando ${categoria.title}: ${error.message}`)
                 categoriasConSubcategorias.push({
                     ...categoria,
                     subcategorias: [],
@@ -203,7 +203,7 @@ async function handleDynamicWebPage() {
             }
         }
         
-        //  Guardar en archivo JSON con subcategorías
+        // �💾 Guardar en archivo JSON con subcategorías
         try {
             const jsonData = {
                 timestamp: new Date().toISOString(),
@@ -217,16 +217,16 @@ async function handleDynamicWebPage() {
             const filePath = join(__dirname, 'meli_categorias.json')
             await fs.writeFile(filePath, JSON.stringify(jsonData, null, 2))
             
-            console.log("\n Archivo meli_categorias.json actualizado exitosamente")
-            console.log(` Ruta completa: ${filePath}`)
-            console.log(` Total de categorías: ${categoriasConSubcategorias.length}`)
-            console.log(` Total de subcategorías: ${categoriasConSubcategorias.reduce((sum, cat) => sum + cat.total_subcategorias, 0)}`)
+            console.log("\n✅ Archivo meli_categorias.json actualizado exitosamente")
+            console.log(`📁 Ruta completa: ${filePath}`)
+            console.log(`📊 Total de categorías: ${categoriasConSubcategorias.length}`)
+            console.log(`📊 Total de subcategorías: ${categoriasConSubcategorias.reduce((sum, cat) => sum + cat.total_subcategorias, 0)}`)
         } catch (error) {
-            console.error(" Error al guardar archivo JSON:", error)
+            console.error("❌ Error al guardar archivo JSON:", error)
         }
         
     } else {
-        console.log(" No se pudo acceder correctamente a MercadoLibre")
+        console.log("❌ No se pudo acceder correctamente a MercadoLibre")
         console.log(`URL actual: ${currentUrl}`)
     }
 
@@ -239,11 +239,11 @@ async function handleDynamicWebPage() {
 
 
     await browser.close()
-    console.log(" Browser cerrado correctamente")
+    console.log("✅ Browser cerrado correctamente")
 }
 
 handleDynamicWebPage().then(() => {
-    console.log(" Navegación completada")
+    console.log("🌐 Navegación completada")
 }).catch((error) => {
-    console.error(" Error durante la navegación:", error)
+    console.error("❌ Error durante la navegación:", error)
 })

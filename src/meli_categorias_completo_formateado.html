@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <!-- Conexiones previas para mejorar velocidad de carga -->
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://data.mercadolibre.com">
+    <link rel="preconnect" href="https://http2.mlstatic.com">
+    <link rel="preconnect" href="https://stats.g.doubleclick.net">
+    <link rel="preconnect" href="https://analytics.mercadolibre.com.ar">
+    <link rel="preconnect" href="https://analytics.mercadolibre.com">
+    <link rel="preconnect" href="https://www.google.com.ar">
+    
+    <!-- Scripts de monitoreo y rendimiento -->
+    <script crossorigin="anonymous" async="" src="https://http2.mlstatic.com/frontend-assets/web-monitoring/1.3.5/agent.min.js"></script>
+    <script crossorigin="anonymous" async="" src="https://http2.mlstatic.com/frontend-assets/perfill-agent/3.17.4/perfill-agent.min.js"></script>
+    
+    <!-- Configuración de New Relic para monitoreo de aplicación -->
+    <script type="text/javascript" nonce="">
+        window.NREUM||(NREUM={});
+        NREUM.info = {
+            "agent":"",
+            "beacon":"bam.nr-data.net",
+            "errorBeacon":"bam.nr-data.net",
+            "licenseKey":"NRBR-8547a290c864571ffcc",
+            "applicationID":"164413269",
+            "agentToken":null,
+            "applicationTime":78.717113,
+            "transactionName":"bgQDMEcFXkJZBkYNWldOJBxFFlVCSw9BS3J8NU5LVgVEVF8KQA1USg==",
+            "queueTime":0,
+            "ttGuid":"5a104f2dbf6d9f2c"
+        }; 
+        
+        (window.NREUM||(NREUM={})).init={
+            ajax:{
+                deny_list:["bam.nr-data.net"]
+            }
+        };
+        
+        (window.NREUM||(NREUM={})).loader_config={
+            xpid:"XQ4OVF5VGwIGUFVTBAMBXw==",
+            licenseKey:"NRBR-8547a290c864571ffcc",
+            applicationID:"164413269"
+        };
+        
+        /* Script completo de New Relic - versión minificada para producción */
+        // (()=>{var e,t,r={8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){r[a]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555:(e,t,r)=>{"use strict";r.d(t,{D:()=>s,f:()=>a});var n=r(384),i=r(8122);const o={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function a(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const s=e=>(0,i.a)(e,o)}})();
+    </script>
+    
+    <!-- Meta redirección para navegadores sin JavaScript -->
+    <noscript>
+        <meta http-equiv="refresh" content="0;URL=//www.mercadolibre.com.ar/gz/webdevice/config?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2Fcategorias&noscript=true"/>
+    </noscript>
+    
+    <!-- Metadatos básicos del documento -->
+    <meta name="traceparent" content="00-00000000000000008fe996550396d5f7-8fe996550396d5f7-00">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="browser-support" content="samesite=true">
+    <meta name="csrf-token" content="k6ICN9sP-A7k6UcaGJYmeWW4XDUVjmiMmJVY">
+    
+    <!-- Configuración de hidratación para aplicación React -->
+    <script nonce="">
+        window._n={hydrationReady:true};
+    </script>
+    
+    <!-- Información de la aplicación Nordic -->
+    <script nonce="">
+        window.NordicWebkitInfo={
+            "context":"web",
+            "application":{
+                "name":"deals-landings-hub",
+                "version":"11.49.0",
+                "scope":"mla",
+                "nordicVersion":"8.25.0",
+                "nordicWebkitVersion":"8.5.8"
+            }
+        };
+    </script>
+    
+    <!-- Preload de fuentes web para optimización -->
+    <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+    <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+    <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-head-react="true">
+    
+    <!-- Definición de fuentes Proxima Nova -->
+    <style data-head-react="true">
+        /*! 
+         * Web Fonts from Fontspring.com 
+         * All OpenType features and all extended glyphs have been removed. 
+         * Fully installable fonts can be purchased at https://www.fontspring.com 
+         * The fonts included in this stylesheet are subject to the End User License you purchased from Fontspring. 
+         * The fonts are protected under domestic and international trademark and copyright law. 
+         * You are prohibited from modifying, reverse engineering, duplicating, or distributing this font software. 
+         * (c) 2010-2023 Fontspring 
+         * Vendor: Mark Simonson Studio 
+         * License URL: https://www.fontspring.com/licenses/mark-simonson-studio/webfont 
+         */
+        
+        @font-face{
+            font-family:'Proxima Nova';
+            font-weight:300;
+            font-display:swap;
+            font-style:normal;
+            src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),
+                url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff")
+        }
+        
+        @font-face{
+            font-family:'Proxima Nova';
+            font-weight:400;
+            font-display:swap;
+            font-style:normal;
+            src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),
+                url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff")
+        }
+        
+        @font-face{
+            font-family:'Proxima Nova';
+            font-weight:600;
+            font-display:swap;
+            font-style:normal;
+            src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),
+                url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff")
+        }
+    </style>
+    
+    <!-- Iconos y metadatos de la aplicación -->
+    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/favicon.svg" rel="icon" data-head-react="true">
+    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/180x180.png" rel="apple-touch-icon" data-head-react="true">
+    
+    <!-- Título y metadatos SEO -->
+    <title>Categorías y Secciones en Mercado Libre</title>
+    <link rel="preconnect" href="https://js-agent.newrelic.com" data-head-react="true">
+    <link rel="canonical" href="https://www.mercadolibre.com.ar/categorias" data-head-react="true">
+    <meta name="description" content="Encontrá todas las categorías y secciones en Mercado Libre Argentina. Descubrí la mejor forma de comprar online." data-head-react="true">
+    
+    <!-- CSS de navegación principal -->
+    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.143/mercadolibre/navigation-desktop.css" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    
+    <!-- Estilos de accesibilidad para skip links -->
+    <style>
+        a.nav-skip-to-main-content{
+            border: 0;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            position: absolute;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            background: #3484fa;
+            left: -10000px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            z-index: -999
+        }
+        
+        a.nav-skip-to-main-content:focus{
+            border: 1px solid #3484fa;
+            height: 55px;
+            width: 200px;
+            padding: 8px 8px;
+            top: 0;
+            left: 0;
+            z-index: 999
+        }
+        
+        .nav-skip-to-main-content > .nav-skip-to-main-content__content{
+            display: block;
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 4px;
+            line-height: 21px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #fff
+        }
+    </style>
+    
+    <!-- Estilos adicionales de accesibilidad para feedback -->
+    <style>
+        a.nav-a11y-feedback-link{
+            border: 0;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            position: absolute;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            background: #3484fa;
+            left: -10000px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            z-index: -999
+        }
+        
+        a.nav-a11y-feedback-link:focus{
+            border: 1px solid #3484fa;
+            height: 79px;
+            width: 200px;
+            padding: 8px 8px;
+            top: 0;
+            left: 0;
+            z-index: 999
+        }
+        
+        .nav-a11y-feedback-link > .nav-a11y-feedback-link__content{
+            display: block;
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 4px;
+            line-height: 21px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #fff
+        }
+    </style>
+    
+    <!-- Estilos del sistema de componentes Andes (muy extenso) -->
+    <style>
+        /* === ANDES CARD COMPONENT === */
+        .andes-card--padding-0>.andes-card__content,
+        .andes-card--padding-0>.andes-card__footer,
+        .andes-card--padding-0>.andes-card__header{
+            padding:0
+        }
+        
+        .andes-card--padding-16>.andes-card__content,
+        .andes-card--padding-16>.andes-card__footer,
+        .andes-card--padding-16>.andes-card__header{
+            padding:16px
+        }
+        
+        .andes-card--padding-24>.andes-card__content,
+        .andes-card--padding-24>.andes-card__footer,
+        .andes-card--padding-24>.andes-card__header{
+            padding:24px
+        }
+        
+        .andes-card--padding-32>.andes-card__content,
+        .andes-card--padding-32>.andes-card__footer,
+        .andes-card--padding-32>.andes-card__header{
+            padding:32px
+        }
+        
+        .andes-card--padding-40>.andes-card__content,
+        .andes-card--padding-40>.andes-card__footer,
+        .andes-card--padding-40>.andes-card__header{
+            padding:40px
+        }
+        
+        .andes-card{
+            background-color:#fff;
+            border-radius:6px;
+            font-family:Proxima Nova,-apple-system,Roboto,Arial,sans-serif
+        }
+        
+        .andes-card--animated{
+            -webkit-transition:box-shadow .2s ease-in-out;
+            transition:box-shadow .2s ease-in-out
+        }
+        
+        .andes-card--animated:hover,
+        .andes-card--elevated{
+            box-shadow:0 6px 16px 0 rgba(0,0,0,.1)
+        }
+        
+        .andes-card--flat{
+            box-shadow:0 1px 2px 0 rgba(0,0,0,.12)
+        }
+        
+        .andes-card--secondary-light{
+            background-color:#f5f5f5;
+            box-shadow:none
+        }
+        
+        .andes-card--secondary-dark{
+            background-color:#ededed;
+            box-shadow:none
+        }
+        
+        .andes-card--outline{
+            border:1px solid rgba(0,0,0,.1)
+        }
+        
+        .andes-card>:first-child{
+            border-top-left-radius:6px;
+            border-top-right-radius:6px
+        }
+        
+        .andes-card>:last-child{
+            border-bottom-left-radius:6px;
+            border-bottom-right-radius:6px
+        }
+        
+        /* === ESTILOS PRINCIPALES DE LA PÁGINA === */
+        body{
+            background:#ededed
+        }
+        
+        a,a:link,a:visited{
+            text-decoration:none
+        }
+        
+        /* === CONTENEDOR PRINCIPAL DE CATEGORÍAS === */
+        .categories-container{
+            color:rgba(0,0,0,.55);
+            margin:0 auto;
+            max-width:1200px;
+            padding:0 15px 32px
+        }
+        
+        .categories-container__main{
+            display:-webkit-inline-flex;
+            display:inline-flex;
+            width:100%
+        }
+        
+        .categories-container__title{
+            color:#4a4a4a;
+            font-size:24px;
+            font-weight:400;
+            margin:24px auto;
+            padding:0
+        }
+        
+        /* === ESTILOS DE CATEGORÍAS === */
+        .categories{
+            box-shadow:0 1px 1px 0 rgba(0,0,0,.1);
+            padding:32px 40px 40px;
+            width:100%
+        }
+        
+        .categories__container{
+            margin-bottom:40px
+        }
+        
+        .categories__container:last-child{
+            margin-bottom:0
+        }
+        
+        .categories__container:last-child .categories__list{
+            padding-bottom:0
+        }
+        
+        .categories__subtitle-title{
+            font-size:14px;
+            font-weight:400;
+            margin:0
+        }
+        
+        .categories__title{
+            color:rgba(0,0,0,.9);
+            font-size:18px;
+            font-weight:600;
+            margin:0 0 8px
+        }
+        
+        .categories__title a:hover{
+            color:var(--andes-color-blue-500,#3483fa)
+        }
+        
+        .categories__list{
+            -webkit-column-count:4;
+            -moz-column-count:4;
+            column-count:4;
+            -webkit-column-gap:15px;
+            -moz-column-gap:15px;
+            column-gap:15px;
+            margin:0 auto;
+            padding-bottom:40px;
+            padding-left:0
+        }
+        
+        .categories__container:not(:last-child){
+            border-bottom:1px solid #ededed
+        }
+        
+        .categories__item{
+            float:left\9;
+            font-size:14px;
+            line-height:24px;
+            list-style-type:none;
+            width:25%\9
+        }
+        
+        .categories__item a{
+            color:rgba(0,0,0,.45)
+        }
+        
+        .categories__item a:hover{
+            color:var(--andes-color-blue-500,#3483fa)
+        }
+        
+        /* Hack específico para versiones antiguas de Internet Explorer */
+        @media screen and (min-width:0\0)and (-webkit-min-device-pixel-ratio:0),screen and (min-width:0\0)and (min-resolution:0.001dpcm){
+            .categories__item{
+                float:left\9;
+                width:25%\9
+            }
+        }
+        
+        /* === ESTILOS DE ENFOQUE PARA ACCESIBILIDAD === */
+        *:focus {
+            outline: 2px solid #3483fa;
+            outline-offset: 2px;
+        }
+    </style>
+    
+    <!-- Script para detectar errores de carga de CSS -->
+    <script nonce="">
+        (function() {
+            var cssLinks = document.querySelectorAll('link[rel="stylesheet"]');
+            for (var i = 0; i < cssLinks.length; i++) {
+                cssLinks[i].addEventListener('error', function(e) {
+                    (window['_pfl'] = window['_pfl'] || []).push(['css', e.target.href]);
+                });
+            }
+        }());
+    </script>
+    
+    <!-- Script para precargar recursos críticos -->
+    <script nonce="">
+        (function(win, doc) {
+            function preloadCriticalPath() {
+                var head = doc.getElementsByTagName('head')[0],
+                    assets = ["https://http2.mlstatic.com/frontend-assets/deals-landings-hub/categories-desktop.48aa08b4.css"],
+                    link,
+                    i;
+                    
+                for(i = 0; i < assets.length; i++) {
+                    link = doc.createElement('link');
+                    link.rel = 'prefetch';
+                    link.href = assets[i];
+                    link.onerror = function(e) {
+                        (window['_pfl'] = window['_pfl'] || []).push(['css', e.target.href]);
+                    }
+                    head.appendChild(link);
+                }
+            }
+            
+            if (doc.readyState === 'complete') {
+                setTimeout(preloadCriticalPath, 0);
+            } else {
+                win.addEventListener('load', function() {
+                    preloadCriticalPath();
+                });
+            }
+        })(window, document);
+    </script>
+    
+    <!-- Inicialización de Google Analytics -->
+    <script nonce="">
+        (function(a,b){a[b]=a[b]||function(){}})(window,"meli_ga");
+    </script>
+    
+</head>
+
+<body>
+    <!-- Enlace de accesibilidad para saltar al contenido principal -->
+    <a class="nav-skip-to-main-content" href="#main-content">
+        <span class="nav-skip-to-main-content__content">
+            Ir al contenido principal
+        </span>
+    </a>
+    
+    <!-- Enlace de accesibilidad para feedback -->
+    <a class="nav-a11y-feedback-link" href="#accessibility-feedback">
+        <span class="nav-a11y-feedback-link__content">
+            Reportar problema de accesibilidad
+        </span>
+    </a>
+    
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <header role="banner" class="nav-header nav-header-plus ui-navigation-v2">
+        <div class="nav-bounds nav-bounds-with-cart">
+            
+            <!-- Logo de MercadoLibre -->
+            <a class="nav-logo" href="https://www.mercadolibre.com.ar" title="Mercado Libre Argentina">
+                <img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/logo_large_25years.png" alt="Mercado Libre" width="134" height="34">
+            </a>
+            
+            <!-- Buscador principal -->
+            <form class="nav-search" role="search" action="/jm/search" method="GET">
+                <input type="text" class="nav-search-input" placeholder="Buscar productos, marcas y más..." name="as_word" maxlength="120" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Ingresá lo que quieras encontrar">
+                <button type="submit" class="nav-search-btn" aria-label="Buscar">
+                    <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m13.193 12.132 3.88 3.88a.75.75 0 1 1-1.061 1.061l-3.88-3.88A6.5 6.5 0 1 1 13.193 12.132zM7.5 13a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z" fill="#666" fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </form>
+            
+            <!-- Menú de usuario y opciones -->
+            <nav class="nav-menu">
+                <ul class="nav-menu-list">
+                    <li class="nav-menu-item">
+                        <a href="/registration" class="nav-menu-link">Crear cuenta</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/login" class="nav-menu-link">Ingresá</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/navigation" class="nav-menu-link">Categorías</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="/help" class="nav-menu-link">Ayuda</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Carrito de compras -->
+            <a href="/checkout/v1/cart" class="nav-cart" title="Carrito">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" fill="#666"></path>
+                </svg>
+                <span class="nav-cart-quantity">0</span>
+            </a>
+            
+        </div>
+    </header>
+    
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="main-content" role="main">
+        <div class="categories-container">
+            
+            <!-- Título principal de la página -->
+            <h1 class="categories-container__title">
+                Categorías
+            </h1>
+            
+            <!-- Contenedor principal de categorías -->
+            <div class="categories-container__main">
+                <section class="categories" aria-label="Lista de categorías de productos">
+                    
+                    <!-- CATEGORÍA: ACCESORIOS PARA VEHÍCULOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/accesorios-para-vehiculos" 
+                               title="Ver todos los accesorios para vehículos">
+                                Accesorios para Vehículos
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/acc-motos-cuatriciclos/" 
+                                   title="Accesorios para Motos y Cuatriciclos">
+                                    Acc. para Motos y Cuatriciclos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/acc-para-autos-camionetas/" 
+                                   title="Accesorios para Autos y Camionetas">
+                                    Acc. para Autos y Camionetas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/tuning/" 
+                                   title="Tuning para vehículos">
+                                    Tuning
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/acc-nauticos/" 
+                                   title="Accesorios Náuticos">
+                                    Accesorios Náuticos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-autos-camionetas/" 
+                                   title="Repuestos para Autos y Camionetas">
+                                    Repuestos Autos y Camionetas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-motos/" 
+                                   title="Repuestos para Motos">
+                                    Repuestos Motos
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: AGRO -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/agro" 
+                               title="Ver productos del sector agropecuario">
+                                Agro
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/agro/maquinaria-agricola/" 
+                                   title="Maquinaria Agrícola">
+                                    Maquinaria Agrícola
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/agro/ganaderia/" 
+                                   title="Productos para Ganadería">
+                                    Ganadería
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/agro/suministros-agricolas/" 
+                                   title="Suministros Agrícolas">
+                                    Suministros Agrícolas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/agro/otros-agro/" 
+                                   title="Otros productos agropecuarios">
+                                    Otros
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ALIMENTOS Y BEBIDAS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/alimentos-bebidas" 
+                               title="Ver alimentos y bebidas">
+                                Alimentos y Bebidas
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/alimentos-bebidas/almacen/" 
+                                   title="Productos de Almacén">
+                                    Almacén
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/alimentos-bebidas/bebidas/" 
+                                   title="Todo tipo de bebidas">
+                                    Bebidas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/alimentos-bebidas/golosinas/" 
+                                   title="Golosinas y dulces">
+                                    Golosinas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/alimentos-bebidas/comida-gourmet/" 
+                                   title="Comida Gourmet">
+                                    Comida Gourmet
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/alimentos-bebidas/kiosco/" 
+                                   title="Productos de Kiosco">
+                                    Kiosco
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ANIMALES Y MASCOTAS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/animales-mascotas" 
+                               title="Ver productos para mascotas y animales">
+                                Animales y Mascotas
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/perros/" 
+                                   title="Productos para Perros">
+                                    Perros
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/gatos/" 
+                                   title="Productos para Gatos">
+                                    Gatos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/aves/" 
+                                   title="Productos para Aves">
+                                    Aves
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/peces/" 
+                                   title="Productos para Peces">
+                                    Peces
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/roedores/" 
+                                   title="Productos para Roedores">
+                                    Roedores
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/animales-mascotas/reptiles/" 
+                                   title="Productos para Reptiles">
+                                    Reptiles
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ARTE, LIBRERÍA Y MERCERÍA -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/arte-libreria-merceria" 
+                               title="Ver productos de arte, librería y mercería">
+                                Arte, Librería y Mercería
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/arte-libreria-merceria/libreria/" 
+                                   title="Productos de Librería">
+                                    Librería
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/arte-libreria-merceria/arte-manualidades/" 
+                                   title="Arte y Manualidades">
+                                    Arte y Manualidades
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/arte-libreria-merceria/merceria/" 
+                                   title="Productos de Mercería">
+                                    Mercería
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/arte-libreria-merceria/cotillon/" 
+                                   title="Artículos de Cotillón">
+                                    Cotillón
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: BEBÉS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/bebes" 
+                               title="Ver productos para bebés">
+                                Bebés
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/coches-bebes/" 
+                                   title="Coches para Bebés">
+                                    Coches para Bebés
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/ropa-bebes/" 
+                                   title="Ropa de Bebés">
+                                    Ropa de Bebés
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/juguetes-bebes/" 
+                                   title="Juguetes para Bebés">
+                                    Juguetes para Bebés
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/alimentacion-bebes/" 
+                                   title="Alimentación para Bebés">
+                                    Alimentación
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/higiene-cuidado-bebe/" 
+                                   title="Higiene y Cuidado del Bebé">
+                                    Higiene y Cuidado
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/bebes/seguridad-bebe/" 
+                                   title="Seguridad del Bebé">
+                                    Seguridad del Bebé
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: BELLEZA Y CUIDADO PERSONAL -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/belleza-cuidado-personal" 
+                               title="Ver productos de belleza y cuidado personal">
+                                Belleza y Cuidado Personal
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/belleza-cuidado-personal/cuidado-piel/" 
+                                   title="Cuidado de la Piel">
+                                    Cuidado de la Piel
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/belleza-cuidado-personal/maquillaje/" 
+                                   title="Productos de Maquillaje">
+                                    Maquillaje
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/belleza-cuidado-personal/cuidado-cabello/" 
+                                   title="Cuidado del Cabello">
+                                    Cuidado del Cabello
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/belleza-cuidado-personal/perfumes/" 
+                                   title="Perfumes y Fragancias">
+                                    Perfumes
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/belleza-cuidado-personal/higiene-personal/" 
+                                   title="Higiene Personal">
+                                    Higiene Personal
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: CELULARES Y TELÉFONOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/celulares-telefonos" 
+                               title="Ver celulares y teléfonos">
+                                Celulares y Teléfonos
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/celulares-telefonos/celulares-smartphones/" 
+                                   title="Celulares y Smartphones">
+                                    Celulares y Smartphones
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/celulares-telefonos/accesorios-celulares/" 
+                                   title="Accesorios para Celulares">
+                                    Accesorios para Celulares
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/celulares-telefonos/telefonia-fija/" 
+                                   title="Telefonía Fija">
+                                    Telefonía Fija
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/celulares-telefonos/smartwatch/" 
+                                   title="Relojes Inteligentes">
+                                    Smartwatch
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/celulares-telefonos/repuestos-celulares/" 
+                                   title="Repuestos para Celulares">
+                                    Repuestos Celulares
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: COMPUTACIÓN -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/computacion" 
+                               title="Ver productos de computación">
+                                Computación
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/laptops/" 
+                                   title="Laptops y Notebooks">
+                                    Laptops y Notebooks
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/pc-escritorio/" 
+                                   title="PC de Escritorio">
+                                    PC de Escritorio
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/tablets/" 
+                                   title="Tablets">
+                                    Tablets
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/componentes-pc/" 
+                                   title="Componentes de PC">
+                                    Componentes de PC
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/accesorios-computacion/" 
+                                   title="Accesorios para Computación">
+                                    Accesorios para Computación
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/impresoras/" 
+                                   title="Impresoras y Scanners">
+                                    Impresoras y Scanners
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/computacion/software/" 
+                                   title="Software">
+                                    Software
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: CONSOLAS Y VIDEOJUEGOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/consolas-videojuegos" 
+                               title="Ver consolas y videojuegos">
+                                Consolas y Videojuegos
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/consolas-videojuegos/videojuegos/" 
+                                   title="Videojuegos">
+                                    Videojuegos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/consolas-videojuegos/consolas/" 
+                                   title="Consolas de Videojuegos">
+                                    Consolas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/consolas-videojuegos/accesorios-gaming/" 
+                                   title="Accesorios Gaming">
+                                    Accesorios Gaming
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/consolas-videojuegos/gaming/" 
+                                   title="PC Gaming">
+                                    PC Gaming
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: CONSTRUCCIÓN -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/construccion" 
+                               title="Ver productos de construcción">
+                                Construcción
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/construccion/herramientas/" 
+                                   title="Herramientas">
+                                    Herramientas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/construccion/materiales/" 
+                                   title="Materiales de Construcción">
+                                    Materiales
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/construccion/pisos-revestimientos/" 
+                                   title="Pisos, Aberturas y Revestimientos">
+                                    Pisos, Aberturas y Revestimientos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/construccion/pinturas/" 
+                                   title="Pinturas">
+                                    Pinturas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/construccion/sanitarios/" 
+                                   title="Sanitarios y Griferías">
+                                    Sanitarios y Griferías
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: DEPORTES Y FITNESS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/deportes-fitness" 
+                               title="Ver productos de deportes y fitness">
+                                Deportes y Fitness
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/fitness-musculacion/" 
+                                   title="Fitness y Musculación">
+                                    Fitness y Musculación
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/futbol/" 
+                                   title="Fútbol">
+                                    Fútbol
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/basquet/" 
+                                   title="Básquet">
+                                    Básquet
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/running/" 
+                                   title="Running">
+                                    Running
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/ciclismo/" 
+                                   title="Ciclismo">
+                                    Ciclismo
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/natacion/" 
+                                   title="Natación">
+                                    Natación
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/tenis/" 
+                                   title="Tenis">
+                                    Tenis
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/deportes-fitness/golf/" 
+                                   title="Golf">
+                                    Golf
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ELECTRODOMÉSTICOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/electrodomesticos" 
+                               title="Ver electrodomésticos">
+                                Electrodomésticos
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electrodomesticos/grandes/" 
+                                   title="Grandes Electrodomésticos">
+                                    Grandes Electrodomésticos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electrodomesticos/pequenos/" 
+                                   title="Pequeños Electrodomésticos">
+                                    Pequeños Electrodomésticos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electrodomesticos/climatizacion/" 
+                                   title="Climatización">
+                                    Climatización
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electrodomesticos/repuestos/" 
+                                   title="Repuestos y Accesorios">
+                                    Repuestos y Accesorios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ELECTRÓNICOS, AUDIO Y VIDEO -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/electronicos-audio-video" 
+                               title="Ver electrónicos, audio y video">
+                                Electrónicos, Audio y Video
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electronicos-audio-video/audio/" 
+                                   title="Audio">
+                                    Audio
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electronicos-audio-video/televisores/" 
+                                   title="Televisores">
+                                    Televisores
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electronicos-audio-video/media-streaming/" 
+                                   title="Media Streaming">
+                                    Media Streaming
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electronicos-audio-video/camaras-fotos/" 
+                                   title="Cámaras y Accesorios">
+                                    Cámaras y Accesorios
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/electronicos-audio-video/drones/" 
+                                   title="Drones y Accesorios">
+                                    Drones y Accesorios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: HERRAMIENTAS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/herramientas" 
+                               title="Ver herramientas">
+                                Herramientas
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/herramientas/electricas/" 
+                                   title="Herramientas Eléctricas">
+                                    Herramientas Eléctricas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/herramientas/manuales/" 
+                                   title="Herramientas Manuales">
+                                    Herramientas Manuales
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/herramientas/medicion/" 
+                                   title="Instrumentos de Medición">
+                                    Instrumentos de Medición
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/herramientas/jardin/" 
+                                   title="Herramientas de Jardín">
+                                    Herramientas de Jardín
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: HOGAR, MUEBLES Y JARDÍN -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/hogar-muebles-jardin" 
+                               title="Ver productos para el hogar, muebles y jardín">
+                                Hogar, Muebles y Jardín
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/muebles/" 
+                                   title="Muebles">
+                                    Muebles
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/decoracion/" 
+                                   title="Decoración">
+                                    Decoración
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/jardin/" 
+                                   title="Jardín">
+                                    Jardín
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/bazar/" 
+                                   title="Bazar y Cocina">
+                                    Bazar y Cocina
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/textiles/" 
+                                   title="Textiles del Hogar">
+                                    Textiles del Hogar
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/hogar-muebles-jardin/colchones/" 
+                                   title="Colchones y Sommiers">
+                                    Colchones y Sommiers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: INSTRUMENTOS MUSICALES -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/instrumentos-musicales" 
+                               title="Ver instrumentos musicales">
+                                Instrumentos Musicales
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/instrumentos-musicales/guitarras/" 
+                                   title="Guitarras y Bajos">
+                                    Guitarras y Bajos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/instrumentos-musicales/teclados/" 
+                                   title="Teclados y Pianos">
+                                    Teclados y Pianos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/instrumentos-musicales/viento/" 
+                                   title="Instrumentos de Viento">
+                                    Instrumentos de Viento
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/instrumentos-musicales/baterias/" 
+                                   title="Baterías y Percusión">
+                                    Baterías y Percusión
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/instrumentos-musicales/accesorios/" 
+                                   title="Accesorios Musicales">
+                                    Accesorios Musicales
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: JOYERÍA Y RELOJES -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/joyeria-relojes" 
+                               title="Ver joyería y relojes">
+                                Joyería y Relojes
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/joyeria-relojes/relojes/" 
+                                   title="Relojes">
+                                    Relojes
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/joyeria-relojes/joyeria/" 
+                                   title="Joyería">
+                                    Joyería
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/joyeria-relojes/piercing/" 
+                                   title="Piercing y Expansores">
+                                    Piercing y Expansores
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: JUEGOS Y JUGUETES -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/juegos-juguetes" 
+                               title="Ver juegos y juguetes">
+                                Juegos y Juguetes
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes/" 
+                                   title="Juguetes">
+                                    Juguetes
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/juegos-juguetes/juegos-mesa/" 
+                                   title="Juegos de Mesa">
+                                    Juegos de Mesa
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/juegos-juguetes/disfraces/" 
+                                   title="Disfraces">
+                                    Disfraces
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/juegos-juguetes/coleccionables/" 
+                                   title="Coleccionables">
+                                    Coleccionables
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: LIBROS, REVISTAS Y COMICS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/libros-revistas-comics" 
+                               title="Ver libros, revistas y comics">
+                                Libros, Revistas y Comics
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/libros-revistas-comics/libros/" 
+                                   title="Libros">
+                                    Libros
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/libros-revistas-comics/comics/" 
+                                   title="Comics">
+                                    Comics
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/libros-revistas-comics/revistas/" 
+                                   title="Revistas">
+                                    Revistas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/libros-revistas-comics/ebooks/" 
+                                   title="Libros Digitales">
+                                    Libros Digitales
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: MÚSICA, PELÍCULAS Y SERIES -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/musica-peliculas-series" 
+                               title="Ver música, películas y series">
+                                Música, Películas y Series
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/musica-peliculas-series/musica/" 
+                                   title="Música">
+                                    Música
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/musica-peliculas-series/peliculas/" 
+                                   title="Películas">
+                                    Películas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/musica-peliculas-series/series/" 
+                                   title="Series">
+                                    Series
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: RECUERDOS, COTILLÓN Y FIESTAS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/recuerdos-cotillon-fiestas" 
+                               title="Ver productos para fiestas">
+                                Recuerdos, Cotillón y Fiestas
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/recuerdos-cotillon-fiestas/souvenirs/" 
+                                   title="Souvenirs">
+                                    Souvenirs
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/recuerdos-cotillon-fiestas/decoracion-fiesta/" 
+                                   title="Decoración para Fiestas">
+                                    Decoración para Fiestas
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/recuerdos-cotillon-fiestas/cotillon/" 
+                                   title="Cotillón">
+                                    Cotillón
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: ROPA Y ACCESORIOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/ropa-accesorios" 
+                               title="Ver ropa y accesorios">
+                                Ropa y Accesorios
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-hombre/" 
+                                   title="Ropa de Hombre">
+                                    Ropa de Hombre
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-mujer/" 
+                                   title="Ropa de Mujer">
+                                    Ropa de Mujer
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-ninos/" 
+                                   title="Ropa de Niños">
+                                    Ropa de Niños
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/calzado/" 
+                                   title="Calzado">
+                                    Calzado
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/accesorios-moda/" 
+                                   title="Accesorios de Moda">
+                                    Accesorios de Moda
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/ropa-accesorios/carteras-bolsos/" 
+                                   title="Carteras y Bolsos">
+                                    Carteras y Bolsos
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: SALUD Y EQUIPAMIENTO MÉDICO -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/salud-equipamiento-medico" 
+                               title="Ver productos de salud y equipamiento médico">
+                                Salud y Equipamiento Médico
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/salud-equipamiento-medico/cuidado-salud/" 
+                                   title="Cuidado de la Salud">
+                                    Cuidado de la Salud
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/salud-equipamiento-medico/equipamiento-medico/" 
+                                   title="Equipamiento Médico">
+                                    Equipamiento Médico
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/salud-equipamiento-medico/ortopedia/" 
+                                   title="Ortopedia">
+                                    Ortopedia
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/salud-equipamiento-medico/suplementos/" 
+                                   title="Suplementos Alimentarios">
+                                    Suplementos Alimentarios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: SERVICIOS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/servicios" 
+                               title="Ver servicios">
+                                Servicios
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/servicios/hogar/" 
+                                   title="Servicios para el Hogar">
+                                    Servicios para el Hogar
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/servicios/eventos/" 
+                                   title="Servicios para Eventos">
+                                    Servicios para Eventos
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/servicios/turismo/" 
+                                   title="Turismo">
+                                    Turismo
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/servicios/otros/" 
+                                   title="Otros Servicios">
+                                    Otros Servicios
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- CATEGORÍA: INDUSTRIAS Y OFICINAS -->
+                    <div class="categories__container">
+                        <h2 class="categories__title">
+                            <a href="https://www.mercadolibre.com.ar/c/industrias-oficinas" 
+                               title="Ver productos para industrias y oficinas">
+                                Industrias y Oficinas
+                            </a>
+                        </h2>
+                        <ul class="categories__list" role="list">
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/equipamiento-medico/" 
+                                   title="Equipamiento Médico Profesional">
+                                    Equipamiento Médico Profesional
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/gastronomia/" 
+                                   title="Gastronomía y Hotelería">
+                                    Gastronomía y Hotelería
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/oficina/" 
+                                   title="Oficina">
+                                    Oficina
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/industria-metalurgica/" 
+                                   title="Industria Metalúrgica">
+                                    Industria Metalúrgica
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/imprenta/" 
+                                   title="Imprenta y Papel">
+                                    Imprenta y Papel
+                                </a>
+                            </li>
+                            <li class="categories__item" role="listitem">
+                                <a href="https://listado.mercadolibre.com.ar/industrias-oficinas/seguridad-industrial/" 
+                                   title="Seguridad Industrial">
+                                    Seguridad Industrial
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <!-- PIE DE PÁGINA -->
+    <footer role="contentinfo" class="nav-footer">
+        <div class="nav-footer-content">
+            
+            <!-- Enlaces importantes -->
+            <div class="nav-footer-section">
+                <h3 class="nav-footer-title">Acerca de</h3>
+                <ul class="nav-footer-list">
+                    <li><a href="/ayuda/mercado-libre" class="nav-footer-link">Mercado Libre</a></li>
+                    <li><a href="/ayuda/como-comprar" class="nav-footer-link">Cómo comprar</a></li>
+                    <li><a href="/ayuda/como-vender" class="nav-footer-link">Cómo vender</a></li>
+                    <li><a href="/ayuda" class="nav-footer-link">Ayuda</a></li>
+                    <li><a href="/ayuda/resolution-center" class="nav-footer-link">Resolución de problemas</a></li>
+                </ul>
+            </div>
+            
+            <!-- Información legal -->
+            <div class="nav-footer-section">
+                <h3 class="nav-footer-title">Legal</h3>
+                <ul class="nav-footer-list">
+                    <li><a href="/ayuda/terms-and-conditions" class="nav-footer-link">Términos y condiciones</a></li>
+                    <li><a href="/ayuda/privacy-policy" class="nav-footer-link">Políticas de privacidad</a></li>
+                    <li><a href="/ayuda/accesibilidad" class="nav-footer-link">Accesibilidad</a></li>
+                    <li><a href="/ayuda/informacion-fiscal" class="nav-footer-link">Información fiscal</a></li>
+                </ul>
+            </div>
+            
+            <!-- Redes sociales -->
+            <div class="nav-footer-section">
+                <h3 class="nav-footer-title">Redes sociales</h3>
+                <ul class="nav-footer-list nav-footer-social">
+                    <li>
+                        <a href="https://www.twitter.com/mercadolibre" class="nav-footer-link" target="_blank" rel="noopener noreferrer">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/MercadoLibre" class="nav-footer-link" target="_blank" rel="noopener noreferrer">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mercadolibre" class="nav-footer-link" target="_blank" rel="noopener noreferrer">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <!-- Copyright -->
+        <div class="nav-footer-copyright">
+            <p>Copyright © 1999-2025 MercadoLibre S.R.L.</p>
+        </div>
+        
+    </footer>
+    
+    <!-- Scripts finales -->
+    <script nonce="">
+        // Configuración de analytics y métricas
+        (function() {
+            window.meli_analytics = {
+                site: 'MLA',
+                category: 'categories',
+                page_type: 'categories_home'
+            };
+        })();
+    </script>
+    
+    <!-- Script para manejo de errores globales -->
+    <script nonce="">
+        window.addEventListener('error', function(e) {
+            console.error('Error capturado:', e.error);
+        });
+        
+        window.addEventListener('unhandledrejection', function(e) {
+            console.error('Promise rechazada:', e.reason);
+        });
+    </script>
+
+</body>
+</html>

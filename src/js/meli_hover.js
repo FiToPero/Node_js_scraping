@@ -3,8 +3,11 @@ import fs from "fs/promises"
 import { fileURLToPath } from "url"
 import { dirname, join } from "path"
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+// const __filename = fileURLToPath(import.meta.url)
+// const __dirname = dirname(__filename)
+
+const gotoPage = 'https://www.mercadolibre.com.ar'
+const filePath = '/app/src/json_test/meli_hover_results.json'
 
 async function extractCategoriesWithHover() {
     const browser = await puppeteer.launch({
@@ -41,7 +44,7 @@ async function extractCategoriesWithHover() {
     console.log("Intentando acceder a MercadoLibre...")  ///// 1
     
     try {
-        await page.goto('https://www.mercadolibre.com.ar', { 
+        await page.goto(gotoPage, { 
             waitUntil: 'networkidle2',
             timeout: 30000 
         })
@@ -63,40 +66,42 @@ async function extractCategoriesWithHover() {
         console.log("Acceso exitoso, iniciando extracción con hover...")  ////// 5
         
         // MÉTODO 1: Hover directo en elementos de navegación
-        const categoriasConHover = await extractWithDirectHover(page)
+        //const categoriasConHover = await extractWithDirectHover(page)
         
         // MÉTODO 2: Forzar visibilidad de elementos ocultos
-        const categoriasForzadas = await extractWithForcedVisibility(page)
+        //const categoriasForzadas = await extractWithForcedVisibility(page)
         
         // MÉTODO 3: Interceptar eventos de mouse
-        const categoriasConEventos = await extractWithMouseEvents(page)
-        
+        //const categoriasConEventos = await extractWithMouseEvents(page)
+
+        // MÉTODO 4: Forzar hover en elementos ocultos
+        const categoriasForzadasHover = await forceHover(page)
+
         // Combinar resultados
         const resultadoFinal = {
             timestamp: new Date().toISOString(),
             source: "MercadoLibre Argentina",
             url: currentUrl,
             metodos: {
-                hover_directo: categoriasConHover,
-                visibilidad_forzada: categoriasForzadas,
-                eventos_mouse: categoriasConEventos
+                // hover_directo: categoriasConHover,
+                // visibilidad_forzada: categoriasForzadas,
+                // eventos_mouse: categoriasConEventos,
+                force_hover: categoriasForzadasHover,
             },
-            total_categorias: categoriasConHover.length + categoriasForzadas.length + categoriasConEventos.length
         }
         
         // Guardar resultados
-        const filePath = join(__dirname, 'meli_hover_results.json')
         await fs.writeFile(filePath, JSON.stringify(resultadoFinal, null, 2))
-        
+
         console.log("Resultados guardados en meli_hover_results.json")
-        console.log(`Total de elementos extraídos: ${resultadoFinal.total_categorias}`)
-        
+        console.log(`Total de elementos extraídos: ${resultadoFinal.metodos.force_hover.length}`)
+
     } else {
         console.log("No se pudo acceder correctamente a MercadoLibre")  ///// 5
     }
 
     await browser.close()
-    console.log("Browser cerrado correctamente") ///////  6
+    console.log("Browser cerrado correctamente END") ///////  6
 }
 
 // MÉTODO 1: Hover directo en elementos de navegación
@@ -114,11 +119,10 @@ async function extractWithDirectHover(page) {
         '[data-js="navigation-menu"] li', // Menú de navegación
         'nav ul li',                     // Navegación general
         '.dropdown-toggle',              // Dropdowns
-        '.menu-item'                     // Items de menú
+        '.menu-item',                     // Items de menú
+        'nav-categs-departments__list nav-categs-departments__list--dynamic'
     ]
     
-// nav-categs-departments__list nav-categs-departments__list--dynamic
-
     for (const selector of menuSelectors) {
         try {
             const elements = await page.$$(selector)
@@ -272,6 +276,81 @@ async function extractWithMouseEvents(page) {
     console.log(` ${hoverResults.length} elementos detectaron hover`)
     return hoverResults
 }
+
+//  MÉTODO 4: forzar hover
+async function forceHover(page) {
+    console.log("\n MÉTODO 4: Forzar hover...")
+    
+    const result = []
+    
+    // Selectores correctos para elementos con múltiples clases
+    const selectors = [
+        '.nav-categs-departments__list.nav-categs-departments__list--dynamic', // Ambas clases en mismo elemento
+        '.nav-categs-departments__list',  // Solo la primera clase
+        'li[class*="nav-categs-departments__list"]', // Cualquier li que contenga esta clase
+        'li.nav-categs-departments__list' // li específico con clase
+    ]
+    
+    for (const selector of selectors) {
+        try {
+            const elements = await page.$$(selector)
+            console.log(`Encontrados ${elements.length} elementos con selector: ${selector}`)
+            
+            if (elements.length > 0) {
+                for (const element of elements) {
+                    try {
+                        // Obtener información del elemento incluso si está oculto
+                        const elementInfo = await element.evaluate(el => {
+                            const computedStyle = window.getComputedStyle(el)
+                            return {
+                                tagName: el.tagName,
+                                className: el.className,
+                                textContent: el.textContent.trim().substring(0, 50),
+                                isVisible: computedStyle.display !== 'none' && computedStyle.visibility !== 'hidden',
+                                display: computedStyle.display,
+                                visibility: computedStyle.visibility,
+                                hasChildren: el.children
+                            }
+                        })
+                        
+                        console.log(`  Elemento encontrado: ${elementInfo.textContent}`)
+                        console.log(`    Display: ${elementInfo.display}, Visible: ${elementInfo.isVisible}`)
+                        
+                        // Si está oculto, forzar visibilidad temporalmente
+                        if (!elementInfo.isVisible) {
+                            await element.evaluate(el => {
+                                el.style.display = 'block'
+                                el.style.visibility = 'visible'
+                                el.style.opacity = '1'
+                            })
+                            console.log(`    Elemento forzado a visible`)
+                        }
+                        
+                   
+                        
+                        result.push({
+                            elemento: elementInfo,
+                            selector_usado: selector
+                        })
+                        
+  
+                        
+                    } catch (elementError) {
+                        console.log(`    Error procesando elemento: ${elementError.message}`)
+                    }
+                }
+            }
+        } catch (selectorError) {
+            console.log(`Error con selector ${selector}: ${selectorError.message}`)
+        }
+    }
+    
+    console.log(`Total elementos procesados: ${result.length}`)
+    return result
+}
+
+
+
 
 // Ejecutar el script
 extractCategoriesWithHover().then(() => {

@@ -1,0 +1,1073 @@
+{
+  "timestamp": "2025-08-13T15:18:09.706Z",
+  "source": "MercadoLibre Argentina",
+  "url": "https://www.mercadolibre.com.ar/",
+  "metodos": {
+    "force_hover": [
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list.nav-categs-departments__list--dynamic"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      }
+    ]
+  }
+}

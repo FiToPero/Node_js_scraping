@@ -2,11 +2,13 @@ import puppeteer from "puppeteer"
 import fs from "fs/promises"
 import { fileURLToPath } from "url"
 import { dirname, join } from "path"
+import { text } from "stream/consumers"
+import { title } from "process"
 
 // const __filename = fileURLToPath(import.meta.url)
 // const __dirname = dirname(__filename)
 
-const gotoPage = 'https://www.mercadolibre.com.ar'
+const gotoPage = 'https://www.mercadolibre.com.ar/categorias#menu=categories' //'https://www.mercadolibre.com.ar'
 const filePath = '/app/src/json_test/meli_hover_results.json'
 
 async function extractCategoriesWithHover() {
@@ -75,7 +77,10 @@ async function extractCategoriesWithHover() {
         //const categoriasConEventos = await extractWithMouseEvents(page)
 
         // MÉTODO 4: Forzar hover en elementos ocultos
-        const categoriasForzadasHover = await forceHover(page)
+        // const categoriasForzadasHover = await forceHover(page)
+
+        // MÉTODO 5: Buscar en CATEGORIAS -> https://www.mercadolibre.com.ar/categorias#menu=categories
+        const categoriasDesdeCategorias = await buscarEnCategorias(page)
 
         // Combinar resultados
         const resultadoFinal = {
@@ -86,7 +91,8 @@ async function extractCategoriesWithHover() {
                 // hover_directo: categoriasConHover,
                 // visibilidad_forzada: categoriasForzadas,
                 // eventos_mouse: categoriasConEventos,
-                force_hover: categoriasForzadasHover,
+                // force_hover: categoriasForzadasHover,
+                desde_categorias: categoriasDesdeCategorias
             },
         }
         
@@ -94,7 +100,7 @@ async function extractCategoriesWithHover() {
         await fs.writeFile(filePath, JSON.stringify(resultadoFinal, null, 2))
 
         console.log("Resultados guardados en meli_hover_results.json")
-        console.log(`Total de elementos extraídos: ${resultadoFinal.metodos.force_hover.length}`)
+        console.log(`Total de elementos extraídos: ${resultadoFinal.metodos.desde_categorias.length}`)  //// change metodos
 
     } else {
         console.log("No se pudo acceder correctamente a MercadoLibre")  ///// 5
@@ -312,9 +318,8 @@ async function forceHover(page) {
                                 hasChildren: el.children
                             }
                         })
-                        
-                        console.log(`  Elemento encontrado: ${elementInfo.textContent}`)
-                        console.log(`    Display: ${elementInfo.display}, Visible: ${elementInfo.isVisible}`)
+                        console.log(`Elemento encontrado: ${elementInfo.textContent}`)
+                        console.log(`Display: ${elementInfo.display}, Visible: ${elementInfo.isVisible}`)
                         
                         // Si está oculto, forzar visibilidad temporalmente
                         if (!elementInfo.isVisible) {
@@ -323,31 +328,65 @@ async function forceHover(page) {
                                 el.style.visibility = 'visible'
                                 el.style.opacity = '1'
                             })
-                            console.log(`    Elemento forzado a visible`)
+                            console.log(`Elemento forzado a visible`)
                         }
-                        
-                   
-                        
-                        result.push({
-                            elemento: elementInfo,
-                            selector_usado: selector
-                        })
-                        
-  
-                        
-                    } catch (elementError) {
-                        console.log(`    Error procesando elemento: ${elementError.message}`)
-                    }
+                        result.push({ elemento: elementInfo, selector_usado: selector })
+                    } catch(error){ console.log(`Error procesando elemento: ${error.message}`) }
                 }
             }
-        } catch (selectorError) {
-            console.log(`Error con selector ${selector}: ${selectorError.message}`)
-        }
+        } catch(error){ console.log(`Error con selector ${selector}: ${error.message}`) }
     }
-    
     console.log(`Total elementos procesados: ${result.length}`)
     return result
 }
+
+async function buscarEnCategorias(page) {
+    console.log("\n MÉTODO 5: En Categorías...") ///////
+    const result = []
+    const selectors = [
+        '.categories__container'
+    ]
+
+    for(const selector of selectors){
+        try {
+            const elements = await page.$$(selector)
+            console.log(`Encontrados ${elements.length} elementos con selector: ${selector}`) /////
+            for(const element of elements){
+                const elementCat = await element.evaluate(el => {
+                    const categories__title = el.querySelectorAll('h2.categories__title a')
+                    const categories__item = el.querySelectorAll('li.categories__item a')
+                    return {
+                        tagName: el.tagName,
+                        className: el.className,
+                        categories__title: Array.from(categories__title).map(link => ({
+                            title_category: link.textContent.trim(),
+                            url: link.href,                        
+                        })),
+                        categories__item: Array.from(categories__item).map(link => ({
+                            title_item: link.textContent.trim(),
+                            url: link.href,
+                        }))
+                    }
+                })
+
+                console.log(`Elemento encontrado: ${elementCat.className}`) /////
+                result.push(elementCat)
+            }
+
+
+
+
+
+
+            
+        } catch(error){ console.log(`Error con selector ${selector}: ${error.message}`) }
+    }
+
+
+    return result
+}
+
+
 
 
 

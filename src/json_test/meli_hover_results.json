@@ -1,2156 +1,1176 @@
 {
-  "timestamp": "2025-08-15T04:02:13.568Z",
+  "timestamp": "2025-08-15T13:42:30.016Z",
   "source": "MercadoLibre Argentina",
-  "url": "https://www.mercadolibre.com.ar/categorias#menu=categories",
+  "url": "https://www.mercadolibre.com.ar/",
   "metodos": {
-    "desde_categorias": [
+    "hover_directo": [],
+    "visibilidad_forzada": [
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Accesorios para Vehículos",
-            "url": "https://www.mercadolibre.com.ar/c/accesorios-para-vehiculos#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA5725&c_uid=e9d598b0-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Acc. para Motos y Cuatriciclos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/acc-motos-cuatriciclos/"
-          },
-          {
-            "title_item": "Accesorios Náuticos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/accesorios-nauticos/"
-          },
-          {
-            "title_item": "Accesorios de Auto y Camioneta",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/accesorios-auto-camioneta/"
-          },
-          {
-            "title_item": "Accesorios para Línea Pesada",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-linea-pesada/"
-          },
-          {
-            "title_item": "Audio para Vehículos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/audio-vehiculos/"
-          },
-          {
-            "title_item": "GNC",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/gnc/"
-          },
-          {
-            "title_item": "Herramientas para Vehículos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/herramientas-vehiculos/"
-          },
-          {
-            "title_item": "Limpieza de Vehículos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/limpieza-vehiculos/"
-          },
-          {
-            "title_item": "Llantas y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/llantas/"
-          },
-          {
-            "title_item": "Lubricantes y Fluidos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/lubricantes-fluidos/"
-          },
-          {
-            "title_item": "Motos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/motos/"
-          },
-          {
-            "title_item": "Navegadores GPS para Vehículos",
-            "url": "https://listado.mercadolibre.com.ar/navegadores-gps-vehiculos/"
-          },
-          {
-            "title_item": "Neumáticos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/neumaticos/"
-          },
-          {
-            "title_item": "Performance",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/performance/"
-          },
-          {
-            "title_item": "Repuestos Autos y Camionetas",
-            "url": "https://listado.mercadolibre.com.ar/repuestos-autos-camionetas/"
-          },
-          {
-            "title_item": "Repuestos Motos y Cuatriciclos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-motos-cuatriciclos/"
-          },
-          {
-            "title_item": "Repuestos Náuticos",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-nauticos/"
-          },
-          {
-            "title_item": "Repuestos de Línea Pesada",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/repuestos-linea-pesada/"
-          },
-          {
-            "title_item": "Seguridad Vehicular",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/seguridad-vehicular/"
-          },
-          {
-            "title_item": "Servicio Programado",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/servicio-programado/"
-          },
-          {
-            "title_item": "Tags para el Pago de Peajes",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/tags-pago-peajes/"
-          },
-          {
-            "title_item": "Tuning",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/tuning/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/accesorios-vehiculos/otros/"
-          }
-        ]
+        "title": "Categorías",
+        "url": "https://www.mercadolibre.com.ar/categorias#nav-header",
+        "parent_text": "CategoríasVehículosInmueblesSupermercadoTecnologíaCompra InternacionalHogar y MueblesElectrodomésticosHerramientasConstrucciónDeportes y FitnessAccesorios para VehículosPara tu NegocioMascotasModaJuegos y JuguetesBebésBelleza y Cuidado PersonalSalud y Equipamiento MédicoIndustrias y OficinasAgroProductos SustentablesServiciosMás vendidosTiendas oficialesVer más categoríasTecnologíaCelulares y TeléfonosCelulares y SmartphonesAccesorios para CelularesRepuestos de CelularesComputaciónComponentes de PCImpresiónTablets y AccesoriosPCConectividad y RedesMonitores y AccesoriosCámaras y AccesoriosCámaras DigitalesAccesorios para CámarasFilmadoras y Cámaras de AcciónElectrónica, Audio y VideoAudioAccesorios para Audio y VideoComponentes ElectrónicosDrones y AccesoriosAudio para VehículosTelevisoresConsolas y VideojuegosVideojuegosPara PlayStationPara NintendoTelevisores"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Agro",
-            "url": "https://www.mercadolibre.com.ar/c/agro#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1512&c_uid=e9d598b1-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Agricultura de Precisión",
-            "url": "https://listado.mercadolibre.com.ar/agricultura-precision/"
-          },
-          {
-            "title_item": "Almacenaje",
-            "url": "https://listado.mercadolibre.com.ar/almacenaje/"
-          },
-          {
-            "title_item": "Animales",
-            "url": "https://listado.mercadolibre.com.ar/agro/animales/"
-          },
-          {
-            "title_item": "Apicultura",
-            "url": "https://listado.mercadolibre.com.ar/apicultura/"
-          },
-          {
-            "title_item": "Energia Renovable",
-            "url": "https://listado.mercadolibre.com.ar/energia-renovable/"
-          },
-          {
-            "title_item": "Fertilizantes",
-            "url": "https://listado.mercadolibre.com.ar/fertilizantes/"
-          },
-          {
-            "title_item": "Herramientas de Trabajo",
-            "url": "https://listado.mercadolibre.com.ar/herramientas-trabajo/"
-          },
-          {
-            "title_item": "Infraestructura Rural",
-            "url": "https://listado.mercadolibre.com.ar/agro/infraestructura-rural/"
-          },
-          {
-            "title_item": "Insumos Agrícolas",
-            "url": "https://listado.mercadolibre.com.ar/agro/insumos-agricolas/"
-          },
-          {
-            "title_item": "Insumos Ganaderos",
-            "url": "https://listado.mercadolibre.com.ar/agro/insumos-ganaderos/"
-          },
-          {
-            "title_item": "Lubricantes y Fluidos",
-            "url": "https://listado.mercadolibre.com.ar/lubricantes-fluidos/"
-          },
-          {
-            "title_item": "Maquinaria Agrícola",
-            "url": "https://listado.mercadolibre.com.ar/agro/maquinaria-agricola/"
-          },
-          {
-            "title_item": "Maquinaria Forrajera",
-            "url": "https://listado.mercadolibre.com.ar/agro/maquinaria-forrajera/"
-          },
-          {
-            "title_item": "Producción Animal",
-            "url": "https://listado.mercadolibre.com.ar/agro/produccion-animal/"
-          },
-          {
-            "title_item": "Protección de Cultivos",
-            "url": "https://listado.mercadolibre.com.ar/proteccion-cultivos/"
-          },
-          {
-            "title_item": "Repuestos Maquinaria Agrícola",
-            "url": "https://listado.mercadolibre.com.ar/agro/repuestos-maquinaria-agricola/"
-          },
-          {
-            "title_item": "Riego",
-            "url": "https://listado.mercadolibre.com.ar/agro/riego/"
-          },
-          {
-            "title_item": "Semillas",
-            "url": "https://listado.mercadolibre.com.ar/agro/semillas/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/agro/otros/"
-          }
-        ]
+        "title": "Hogar y Muebles",
+        "url": "https://www.mercadolibre.com.ar/c/hogar-muebles-y-jardin#menu=categories",
+        "parent_text": "Hogar y Muebles"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Alimentos y Bebidas",
-            "url": "https://www.mercadolibre.com.ar/c/alimentos-y-bebidas#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1403&c_uid=e9d598b2-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Almacén",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/almacen/"
-          },
-          {
-            "title_item": "Bebidas",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/bebidas/"
-          },
-          {
-            "title_item": "Comida Preparada",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/comida-preparada/"
-          },
-          {
-            "title_item": "Congelados",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/congelados/"
-          },
-          {
-            "title_item": "Frescos",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/frescos/"
-          },
-          {
-            "title_item": "Kéfir",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/kefir/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/alimentos-bebidas/otros/"
-          }
-        ]
+        "title": "Electrodomésticos",
+        "url": "https://www.mercadolibre.com.ar/c/electrodomesticos-y-aires-ac#menu=categories",
+        "parent_text": "Electrodomésticos"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Mascotas",
-            "url": "https://www.mercadolibre.com.ar/c/animales-y-mascotas#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1071&c_uid=e9d598b3-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Abrigos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/abrigos/"
-          },
-          {
-            "title_item": "Ahuyentadores Ultrasónicos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/ahuyentadores-ultrasonicos/"
-          },
-          {
-            "title_item": "Aves",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/aves/"
-          },
-          {
-            "title_item": "Botas y Zapatos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/botas-zapatos/"
-          },
-          {
-            "title_item": "Caballos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/caballos/"
-          },
-          {
-            "title_item": "Cepillos y Peines",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/cepillos-peines/"
-          },
-          {
-            "title_item": "Cinturones de Seguridad",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/cinturones-seguridad/"
-          },
-          {
-            "title_item": "Collares",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/collares/"
-          },
-          {
-            "title_item": "Conejos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/conejos/"
-          },
-          {
-            "title_item": "Contenedores de Alimento",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/contenedores-alimento/"
-          },
-          {
-            "title_item": "Correas para Mascotas",
-            "url": "https://listado.mercadolibre.com.ar/correas-mascotas/"
-          },
-          {
-            "title_item": "Cortaúñas",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/cortaunas/"
-          },
-          {
-            "title_item": "Gatos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/gatos/"
-          },
-          {
-            "title_item": "Golosinas para Mascotas",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/golosinas-mascotas/"
-          },
-          {
-            "title_item": "Insectos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/insectos/"
-          },
-          {
-            "title_item": "Jabones",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/jabones/"
-          },
-          {
-            "title_item": "Jaulas para Mascotas",
-            "url": "https://listado.mercadolibre.com.ar/jaulas-mascotas/"
-          },
-          {
-            "title_item": "Moños",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/monos/"
-          },
-          {
-            "title_item": "Pastas Dentales",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/pastas-dentales/"
-          },
-          {
-            "title_item": "Pañales",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/panales/"
-          },
-          {
-            "title_item": "Peces",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/peces/"
-          },
-          {
-            "title_item": "Perros",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/perros/"
-          },
-          {
-            "title_item": "Pilotos",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/pilotos/"
-          },
-          {
-            "title_item": "Reptiles y Anfibios",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/reptiles-anfibios/"
-          },
-          {
-            "title_item": "Roedores",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/roedores/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/animales-mascotas/otros/"
-          }
-        ]
+        "title": "Herramientas",
+        "url": "https://www.mercadolibre.com.ar/c/herramientas#menu=categories",
+        "parent_text": "Herramientas"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Antigüedades y Colecciones",
-            "url": "https://www.mercadolibre.com.ar/c/antiguedades-y-colecciones#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1367&c_uid=e9d598b4-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Antigüedades",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/antiguedades/"
-          },
-          {
-            "title_item": "Banderas",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/banderas/"
-          },
-          {
-            "title_item": "Coleccionables de Deportes",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/coleccionables-deportes/"
-          },
-          {
-            "title_item": "Esculturas",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/esculturas/"
-          },
-          {
-            "title_item": "Filatelia",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/filatelia/"
-          },
-          {
-            "title_item": "Militaría y Afines",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/militaria-afines/"
-          },
-          {
-            "title_item": "Monedas y Billetes",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/monedas-billetes/"
-          },
-          {
-            "title_item": "Pósters",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/posters/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/antiguedades-colecciones/otros/"
-          }
-        ]
+        "title": "Construcción",
+        "url": "https://www.mercadolibre.com.ar/c/construccion#menu=categories",
+        "parent_text": "Construcción"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Arte, Librería y Mercería",
-            "url": "https://www.mercadolibre.com.ar/c/arte-libreria-y-merceria#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1368&c_uid=e9d598b5-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Arte y Manualidades",
-            "url": "https://listado.mercadolibre.com.ar/arte-libreria-merceria/arte-manualidades/"
-          },
-          {
-            "title_item": "Librería",
-            "url": "https://listado.mercadolibre.com.ar/arte-libreria-merceria/libreria/"
-          },
-          {
-            "title_item": "Mercería",
-            "url": "https://listado.mercadolibre.com.ar/arte-libreria-merceria/merceria/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/arte-libreria-merceria/otros/"
-          }
-        ]
+        "title": "Deportes y Fitness",
+        "url": "https://www.mercadolibre.com.ar/c/deportes-y-fitness#menu=categories",
+        "parent_text": "Deportes y Fitness"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Autos, Motos y Otros",
-            "url": "https://www.mercadolibre.com.ar/c/autos-motos-y-otros#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1743&c_uid=e9d598b6-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Autos Chocados y Averiados",
-            "url": "https://vehiculos.mercadolibre.com.ar/autos-chocados-averiados/"
-          },
-          {
-            "title_item": "Autos de Colección",
-            "url": "https://autos.mercadolibre.com.ar/coleccion/"
-          },
-          {
-            "title_item": "Autos y Camionetas",
-            "url": "https://autos.mercadolibre.com.ar/"
-          },
-          {
-            "title_item": "Camiones",
-            "url": "https://vehiculos.mercadolibre.com.ar/camiones/"
-          },
-          {
-            "title_item": "Colectivos",
-            "url": "https://vehiculos.mercadolibre.com.ar/colectivos/"
-          },
-          {
-            "title_item": "Maquinaria Agrícola",
-            "url": "https://vehiculos.mercadolibre.com.ar/maquinaria-agricola/"
-          },
-          {
-            "title_item": "Maquinaria Vial",
-            "url": "https://vehiculos.mercadolibre.com.ar/maquinaria-vial/"
-          },
-          {
-            "title_item": "Motorhomes",
-            "url": "https://vehiculos.mercadolibre.com.ar/motorhomes/"
-          },
-          {
-            "title_item": "Motos",
-            "url": "https://motos.mercadolibre.com.ar/"
-          },
-          {
-            "title_item": "Náutica",
-            "url": "https://vehiculos.mercadolibre.com.ar/nautica/"
-          },
-          {
-            "title_item": "Otros Vehículos",
-            "url": "https://vehiculos.mercadolibre.com.ar/otros/"
-          },
-          {
-            "title_item": "Planes de Ahorro",
-            "url": "https://vehiculos.mercadolibre.com.ar/planes-de-ahorro/"
-          },
-          {
-            "title_item": "Semirremolques",
-            "url": "https://vehiculos.mercadolibre.com.ar/semirremolques/"
-          }
-        ]
+        "title": "Accesorios para Vehículos",
+        "url": "https://www.mercadolibre.com.ar/c/accesorios-para-vehiculos#menu=categories",
+        "parent_text": "Accesorios para Vehículos"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Bebés",
-            "url": "https://www.mercadolibre.com.ar/c/bebes#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1384&c_uid=e9d598b7-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Andadores y Vehículos de Bebés",
-            "url": "https://listado.mercadolibre.com.ar/bebes/andadores-vehiculos-bebes/"
-          },
-          {
-            "title_item": "Artículos de Bebés para Baño",
-            "url": "https://listado.mercadolibre.com.ar/bebes/articulos-bebes-bano/"
-          },
-          {
-            "title_item": "Artículos de Maternidad",
-            "url": "https://listado.mercadolibre.com.ar/bebes/articulos-maternidad/"
-          },
-          {
-            "title_item": "Chupetes y Mordillos",
-            "url": "https://listado.mercadolibre.com.ar/bebes/chupetes-mordillos/"
-          },
-          {
-            "title_item": "Comida para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/bebes/comida-bebes/"
-          },
-          {
-            "title_item": "Corralitos",
-            "url": "https://listado.mercadolibre.com.ar/bebes/corralitos/"
-          },
-          {
-            "title_item": "Cuarto del Bebé",
-            "url": "https://listado.mercadolibre.com.ar/bebes/cuarto-bebe/"
-          },
-          {
-            "title_item": "Higiene y Cuidado del Bebé",
-            "url": "https://listado.mercadolibre.com.ar/bebes/higiene-cuidado-bebe/"
-          },
-          {
-            "title_item": "Juegos y Juguetes para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/bebes/juegos-juguetes-bebes/"
-          },
-          {
-            "title_item": "Lactancia y Alimentación",
-            "url": "https://listado.mercadolibre.com.ar/bebes/lactancia-alimentacion/"
-          },
-          {
-            "title_item": "Paseo del Bebé",
-            "url": "https://listado.mercadolibre.com.ar/bebes/paseo-bebe/"
-          },
-          {
-            "title_item": "Ropa y Calzado para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/bebes/ropa-calzado-bebe/"
-          },
-          {
-            "title_item": "Salud del Bebé",
-            "url": "https://listado.mercadolibre.com.ar/bebes/salud-bebe/"
-          },
-          {
-            "title_item": "Seguridad para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/bebes/seguridad-bebes/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/bebes/otros/"
-          }
-        ]
+        "title": "Mascotas",
+        "url": "https://www.mercadolibre.com.ar/c/animales-y-mascotas#menu=categories",
+        "parent_text": "Mascotas"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Belleza y Cuidado Personal",
-            "url": "https://www.mercadolibre.com.ar/c/belleza-y-cuidado-personal#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1246&c_uid=e9d598b8-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Artefactos para el Cabello",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/artefactos-cabello/"
-          },
-          {
-            "title_item": "Artículos de Peluquería",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/articulos-peluqueria/"
-          },
-          {
-            "title_item": "Barbería",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/barberia/"
-          },
-          {
-            "title_item": "Cuidado de la Piel",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/cuidado-piel/"
-          },
-          {
-            "title_item": "Cuidado del Cabello",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/cuidado-cabello/"
-          },
-          {
-            "title_item": "Depilación",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/depilacion/"
-          },
-          {
-            "title_item": "Farmacia",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/farmacia/"
-          },
-          {
-            "title_item": "Higiene Personal",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/higiene-personal/"
-          },
-          {
-            "title_item": "Manicura y Pedicura",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/manicura-pedicura/"
-          },
-          {
-            "title_item": "Maquillaje",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/maquillaje/"
-          },
-          {
-            "title_item": "Perfumes",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/perfumes/"
-          },
-          {
-            "title_item": "Tratamientos de Belleza",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/tratamientos-belleza/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/belleza-cuidado-personal/otros/"
-          }
-        ]
+        "title": "Moda",
+        "url": "https://www.mercadolibre.com.ar/c/ropa-y-accesorios#menu=categories",
+        "parent_text": "Moda"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Cámaras y Accesorios",
-            "url": "https://www.mercadolibre.com.ar/c/camaras-y-accesorios#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1039&c_uid=e9d598b9-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios para Cámaras",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/accesorios-camaras/"
-          },
-          {
-            "title_item": "Cables",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/cables/"
-          },
-          {
-            "title_item": "Cámaras",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/camaras/"
-          },
-          {
-            "title_item": "Drones y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/drones-accesorios/"
-          },
-          {
-            "title_item": "Filmadoras y Cámaras de Acción",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/filmadoras-camaras-accion/"
-          },
-          {
-            "title_item": "Instrumentos Ópticos",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/instrumentos-opticos/"
-          },
-          {
-            "title_item": "Lentes y Filtros",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/lentes-filtros/"
-          },
-          {
-            "title_item": "Repuestos para Cámaras",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/repuestos-camaras/"
-          },
-          {
-            "title_item": "Revelado y Laboratorio",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/revelado-laboratorio/"
-          },
-          {
-            "title_item": "Álbumes y Portarretratos",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/albumes-portarretratos/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/camaras-accesorios/otros/"
-          }
-        ]
+        "title": "Juegos y Juguetes",
+        "url": "https://www.mercadolibre.com.ar/c/juegos-y-juguetes#menu=categories",
+        "parent_text": "Juegos y Juguetes"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Celulares y Teléfonos",
-            "url": "https://www.mercadolibre.com.ar/c/celulares-y-telefonos#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1051&c_uid=e9d598ba-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios para Celulares",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/accesorios-celulares/"
-          },
-          {
-            "title_item": "Celulares y Smartphones",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/celulares-smartphones/"
-          },
-          {
-            "title_item": "Handies y Radiofrecuencia",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/handies-radiofrecuencia/"
-          },
-          {
-            "title_item": "Lentes de Realidad Virtual",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/lentes-realidad-virtual/"
-          },
-          {
-            "title_item": "Repuestos de Celulares",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/repuestos-celulares/"
-          },
-          {
-            "title_item": "Smartwatches y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/smartwatches-accesorios/"
-          },
-          {
-            "title_item": "Tarifadores y Cabinas",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/tarifadores-cabinas/"
-          },
-          {
-            "title_item": "Telefonía Fija e Inalámbrica",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/telefonia-fija-inalambrica/"
-          },
-          {
-            "title_item": "Telefonía IP",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/telefonia-ip/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/celulares-telefonos/otros/"
-          }
-        ]
+        "title": "Bebés",
+        "url": "https://www.mercadolibre.com.ar/c/bebes#menu=categories",
+        "parent_text": "Bebés"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Computación",
-            "url": "https://www.mercadolibre.com.ar/c/computacion#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1648&c_uid=e9d598bb-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios de Antiestática",
-            "url": "https://listado.mercadolibre.com.ar/computacion/accesorios-antiestatica/"
-          },
-          {
-            "title_item": "Accesorios para PC Gaming",
-            "url": "https://listado.mercadolibre.com.ar/computacion/accesorios-pc-gaming/"
-          },
-          {
-            "title_item": "Almacenamiento",
-            "url": "https://listado.mercadolibre.com.ar/computacion/almacenamiento/"
-          },
-          {
-            "title_item": "Cables y Hubs USB",
-            "url": "https://listado.mercadolibre.com.ar/computacion/cables-hubs-usb/"
-          },
-          {
-            "title_item": "Componentes de PC",
-            "url": "https://listado.mercadolibre.com.ar/computacion/componentes-pc/"
-          },
-          {
-            "title_item": "Conectividad y Redes",
-            "url": "https://listado.mercadolibre.com.ar/computacion/conectividad-redes/"
-          },
-          {
-            "title_item": "Estabilizadores y UPS",
-            "url": "https://listado.mercadolibre.com.ar/computacion/estabilizadores-ups/"
-          },
-          {
-            "title_item": "Impresión",
-            "url": "https://listado.mercadolibre.com.ar/computacion/impresion/"
-          },
-          {
-            "title_item": "Lectores y Scanners",
-            "url": "https://listado.mercadolibre.com.ar/computacion/lectores-scanners/"
-          },
-          {
-            "title_item": "Limpieza y Cuidado de PCs",
-            "url": "https://listado.mercadolibre.com.ar/computacion/limpieza-cuidado-pcs/"
-          },
-          {
-            "title_item": "Monitores y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/computacion/monitores-accesorios/"
-          },
-          {
-            "title_item": "Notebooks y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/computacion/notebooks-accesorios/"
-          },
-          {
-            "title_item": "PC de Escritorio",
-            "url": "https://listado.mercadolibre.com.ar/computacion/pc-escritorio/"
-          },
-          {
-            "title_item": "Palms y Handhelds",
-            "url": "https://listado.mercadolibre.com.ar/computacion/palms-handhelds/"
-          },
-          {
-            "title_item": "Periféricos de PC",
-            "url": "https://listado.mercadolibre.com.ar/computacion/perifericos-pc/"
-          },
-          {
-            "title_item": "Proyectores y Pantallas",
-            "url": "https://listado.mercadolibre.com.ar/computacion/proyectores-pantallas/"
-          },
-          {
-            "title_item": "Software",
-            "url": "https://listado.mercadolibre.com.ar/computacion/software/"
-          },
-          {
-            "title_item": "Tablets y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/computacion/tablets-accesorios/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/computacion/otros/"
-          }
-        ]
+        "title": "Belleza y Cuidado Personal",
+        "url": "https://www.mercadolibre.com.ar/c/belleza-y-cuidado-personal#menu=categories",
+        "parent_text": "Belleza y Cuidado Personal"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Consolas y Videojuegos",
-            "url": "https://www.mercadolibre.com.ar/c/consolas-y-videojuegos#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1144&c_uid=e9d598bc-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios para Consolas",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/accesorios-consolas/"
-          },
-          {
-            "title_item": "Accesorios para PC Gaming",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/accesorios-pc-gaming/"
-          },
-          {
-            "title_item": "Consolas",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/consolas/"
-          },
-          {
-            "title_item": "Flippers y Arcade",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/flippers-arcade/"
-          },
-          {
-            "title_item": "Repuestos para Consolas",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/repuestos-consolas/"
-          },
-          {
-            "title_item": "Videojuegos",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/videojuegos/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/consolas-videojuegos/otros/"
-          }
-        ]
+        "title": "Salud y Equipamiento Médico",
+        "url": "https://www.mercadolibre.com.ar/c/salud-y-equipamiento-medico#menu=categories",
+        "parent_text": "Salud y Equipamiento Médico"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Construcción",
-            "url": "https://www.mercadolibre.com.ar/c/construccion#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1500&c_uid=e9d598bd-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Aberturas",
-            "url": "https://listado.mercadolibre.com.ar/construccion/aberturas/"
-          },
-          {
-            "title_item": "Accesorios de Construcción",
-            "url": "https://listado.mercadolibre.com.ar/construccion/accesorios-construccion/"
-          },
-          {
-            "title_item": "Baños y Sanitarios",
-            "url": "https://listado.mercadolibre.com.ar/construccion/banos-sanitarios/"
-          },
-          {
-            "title_item": "Electricidad",
-            "url": "https://listado.mercadolibre.com.ar/construccion/electricidad/"
-          },
-          {
-            "title_item": "Maquinarias para Construcción",
-            "url": "https://listado.mercadolibre.com.ar/construccion/maquinarias-construccion/"
-          },
-          {
-            "title_item": "Materiales de Obra",
-            "url": "https://listado.mercadolibre.com.ar/construccion/materiales-obra/"
-          },
-          {
-            "title_item": "Mobiliario para Cocinas",
-            "url": "https://listado.mercadolibre.com.ar/construccion/mobiliario-cocinas/"
-          },
-          {
-            "title_item": "Pinturería",
-            "url": "https://listado.mercadolibre.com.ar/construccion/pintureria/"
-          },
-          {
-            "title_item": "Pisos y Revestimientos",
-            "url": "https://listado.mercadolibre.com.ar/construccion/pisos-revestimientos/"
-          },
-          {
-            "title_item": "Plomería",
-            "url": "https://listado.mercadolibre.com.ar/construccion/plomeria/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/construccion/otros/"
-          }
-        ]
+        "title": "Industrias y Oficinas",
+        "url": "https://www.mercadolibre.com.ar/c/industrias-y-oficinas#menu=categories",
+        "parent_text": "Industrias y Oficinas"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Deportes y Fitness",
-            "url": "https://www.mercadolibre.com.ar/c/deportes-y-fitness#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1276&c_uid=e9d598be-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Artes Marciales y Boxeo",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/artes-marciales-boxeo/"
-          },
-          {
-            "title_item": "Buceo",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/buceo/"
-          },
-          {
-            "title_item": "Bádminton",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/badminton/"
-          },
-          {
-            "title_item": "Básquet",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/basquet/"
-          },
-          {
-            "title_item": "Béisbol y Sóftbol",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/beisbol-softbol/"
-          },
-          {
-            "title_item": "Camping, Caza y Pesca",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/camping-caza-pesca/"
-          },
-          {
-            "title_item": "Canoas, Kayaks e Inflables",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/canoas-kayaks-inflables/"
-          },
-          {
-            "title_item": "Ciclismo",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/ciclismo/"
-          },
-          {
-            "title_item": "Coderas",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/coderas/"
-          },
-          {
-            "title_item": "Equitación y Polo",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/equitacion-polo/"
-          },
-          {
-            "title_item": "Esgrima",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/esgrima/"
-          },
-          {
-            "title_item": "Esqui y Snowboard",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/esqui-snowboard/"
-          },
-          {
-            "title_item": "Fitness y Musculación",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/fitness-musculacion/"
-          },
-          {
-            "title_item": "Fútbol",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/futbol/"
-          },
-          {
-            "title_item": "Fútbol Americano",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/futbol-americano/"
-          },
-          {
-            "title_item": "Golf",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/golf/"
-          },
-          {
-            "title_item": "Handball",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/handball/"
-          },
-          {
-            "title_item": "Hockey",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/hockey/"
-          },
-          {
-            "title_item": "Juegos de Salón",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/juegos-salon/"
-          },
-          {
-            "title_item": "Kitesurf",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/kitesurf/"
-          },
-          {
-            "title_item": "Monopatines y Scooters",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/monopatines-scooters/"
-          },
-          {
-            "title_item": "Montañismo y Trekking",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/montanismo-trekking/"
-          },
-          {
-            "title_item": "Natación",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/natacion/"
-          },
-          {
-            "title_item": "Paintball",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/paintball/"
-          },
-          {
-            "title_item": "Parapente",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/parapente/"
-          },
-          {
-            "title_item": "Patín y Skateboard",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/patin-skateboard/"
-          },
-          {
-            "title_item": "Pilates y Yoga",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/pilates-yoga/"
-          },
-          {
-            "title_item": "Pulsómetros y Cronómetros",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/pulsometros-cronometros/"
-          },
-          {
-            "title_item": "Ropa Deportiva",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/ropa-deportiva/"
-          },
-          {
-            "title_item": "Rugby",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/rugby/"
-          },
-          {
-            "title_item": "Slackline",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/slackline/"
-          },
-          {
-            "title_item": "Suplementos y Shakers",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/suplementos-shakers/"
-          },
-          {
-            "title_item": "Surf y Bodyboard",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/surf-bodyboard/"
-          },
-          {
-            "title_item": "Tenis, Pádel y Squash",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/tenis-padel-squash/"
-          },
-          {
-            "title_item": "Tiro Deportivo",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/tiro-deportivo/"
-          },
-          {
-            "title_item": "Voley",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/voley/"
-          },
-          {
-            "title_item": "Wakeboard y Esqui Acuático",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/wakeboard-esqui-acuatico/"
-          },
-          {
-            "title_item": "Windsurf",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/windsurf/"
-          },
-          {
-            "title_item": "Zapatillas",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/zapatillas/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/deportes-fitness/otros/"
-          }
-        ]
+        "title": "Agro",
+        "url": "https://www.mercadolibre.com.ar/c/agro#menu=categories",
+        "parent_text": "Agro"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Electrodomésticos y Aires Ac.",
-            "url": "https://www.mercadolibre.com.ar/c/electrodomesticos-y-aires-ac#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA5726&c_uid=e9d598bf-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Artefactos de Cuidado Personal",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/artefactos-cuidado-personal/"
-          },
-          {
-            "title_item": "Climatización",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/climatizacion/"
-          },
-          {
-            "title_item": "Cocción",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/coccion/"
-          },
-          {
-            "title_item": "Dispensadores y Purificadores",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/dispensadores-purificadores/"
-          },
-          {
-            "title_item": "Lavado",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/lavado/"
-          },
-          {
-            "title_item": "Pequeños Electrodomésticos",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/pequenos-electrodomesticos/"
-          },
-          {
-            "title_item": "Refrigeración",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/refrigeracion/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/electrodomesticos-aires-ac/otros/"
-          }
-        ]
+        "title": "Servicios",
+        "url": "https://www.mercadolibre.com.ar/c/servicios#menu=categories",
+        "parent_text": "Servicios"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Electrónica, Audio y Video",
-            "url": "https://www.mercadolibre.com.ar/c/electronica-audio-y-video#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1000&c_uid=e9d598c0-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios para Audio y Video",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/accesorios-audio-video/"
-          },
-          {
-            "title_item": "Accesorios para TV",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/accesorios-tv/"
-          },
-          {
-            "title_item": "Audio",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/audio/"
-          },
-          {
-            "title_item": "Cables",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/cables/"
-          },
-          {
-            "title_item": "Componentes Electrónicos",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/componentes-electronicos/"
-          },
-          {
-            "title_item": "Controles Remotos",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/controles-remotos/"
-          },
-          {
-            "title_item": "Drones y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/drones-accesorios/"
-          },
-          {
-            "title_item": "Fundas y Bolsos",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/fundas-bolsos/"
-          },
-          {
-            "title_item": "Media Streaming",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/media-streaming/"
-          },
-          {
-            "title_item": "Pilas y Cargadores",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/pilas-cargadores/"
-          },
-          {
-            "title_item": "Proyectores y Pantallas",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/proyectores-pantallas/"
-          },
-          {
-            "title_item": "Repuestos para TV",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/repuestos-tv/"
-          },
-          {
-            "title_item": "Televisores",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/televisores/"
-          },
-          {
-            "title_item": "Video",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/video/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/electronica-audio-video/otros/"
-          }
-        ]
+        "title": "Ver más categorías",
+        "url": "https://www.mercadolibre.com.ar/categorias#menu=categories",
+        "parent_text": "Ver más categorías"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Entradas para Eventos",
-            "url": "https://www.mercadolibre.com.ar/c/entradas-para-eventos#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA2547&c_uid=e9d598c1-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Entradas de Colección",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/entradas-coleccion/"
-          },
-          {
-            "title_item": "Eventos Deportivos",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/eventos-deportivos/"
-          },
-          {
-            "title_item": "Eventos a Beneficio",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/eventos-beneficio/"
-          },
-          {
-            "title_item": "Exposiciones",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/exposiciones/"
-          },
-          {
-            "title_item": "Otras Entradas",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/otras-entradas/"
-          },
-          {
-            "title_item": "Recitales",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/recitales/"
-          },
-          {
-            "title_item": "Teatro",
-            "url": "https://listado.mercadolibre.com.ar/entradas-eventos/teatro/"
-          }
-        ]
+        "title": "Celulares y Teléfonos",
+        "url": "https://www.mercadolibre.com.ar/c/celulares-y-telefonos#menu=categories",
+        "parent_text": "CategoríasVehículosInmueblesSupermercadoTecnologíaCompra InternacionalHogar y MueblesElectrodomésticosHerramientasConstrucciónDeportes y FitnessAccesorios para VehículosPara tu NegocioMascotasModaJuegos y JuguetesBebésBelleza y Cuidado PersonalSalud y Equipamiento MédicoIndustrias y OficinasAgroProductos SustentablesServiciosMás vendidosTiendas oficialesVer más categoríasTecnologíaCelulares y TeléfonosCelulares y SmartphonesAccesorios para CelularesRepuestos de CelularesComputaciónComponentes de PCImpresiónTablets y AccesoriosPCConectividad y RedesMonitores y AccesoriosCámaras y AccesoriosCámaras DigitalesAccesorios para CámarasFilmadoras y Cámaras de AcciónElectrónica, Audio y VideoAudioAccesorios para Audio y VideoComponentes ElectrónicosDrones y AccesoriosAudio para VehículosTelevisoresConsolas y VideojuegosVideojuegosPara PlayStationPara NintendoTelevisores"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Herramientas",
-            "url": "https://www.mercadolibre.com.ar/c/herramientas#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA407134&c_uid=e9d598c2-798b-11f0-805f-5f4f34f9bba5"
-          }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Accesorios para Herramientas",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/accesorios-herramientas/"
-          },
-          {
-            "title_item": "Cajas y Organizadores",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/cajas-organizadores/"
-          },
-          {
-            "title_item": "Herramientas Eléctricas",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/herramientas-electricas/"
-          },
-          {
-            "title_item": "Herramientas Industriales",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/herramientas-industriales/"
-          },
-          {
-            "title_item": "Herramientas Manuales",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/herramientas-manuales/"
-          },
-          {
-            "title_item": "Herramientas Neumáticas",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/herramientas-neumaticas/"
-          },
-          {
-            "title_item": "Herramientas para Jardín",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/herramientas-jardin/"
-          },
-          {
-            "title_item": "Testers y Equipos de Medición",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/testers-equipos-medicion/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/herramientas/otras/"
-          }
-        ]
+        "title": "Computación",
+        "url": "https://www.mercadolibre.com.ar/c/computacion#menu=categories",
+        "parent_text": "CategoríasVehículosInmueblesSupermercadoTecnologíaCompra InternacionalHogar y MueblesElectrodomésticosHerramientasConstrucciónDeportes y FitnessAccesorios para VehículosPara tu NegocioMascotasModaJuegos y JuguetesBebésBelleza y Cuidado PersonalSalud y Equipamiento MédicoIndustrias y OficinasAgroProductos SustentablesServiciosMás vendidosTiendas oficialesVer más categoríasTecnologíaCelulares y TeléfonosCelulares y SmartphonesAccesorios para CelularesRepuestos de CelularesComputaciónComponentes de PCImpresiónTablets y AccesoriosPCConectividad y RedesMonitores y AccesoriosCámaras y AccesoriosCámaras DigitalesAccesorios para CámarasFilmadoras y Cámaras de AcciónElectrónica, Audio y VideoAudioAccesorios para Audio y VideoComponentes ElectrónicosDrones y AccesoriosAudio para VehículosTelevisoresConsolas y VideojuegosVideojuegosPara PlayStationPara NintendoTelevisores"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Hogar, Muebles y Jardín",
-            "url": "https://www.mercadolibre.com.ar/c/hogar-muebles-y-jardin#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1574&c_uid=e9d598c3-798b-11f0-805f-5f4f34f9bba5"
+        "title": "Cámaras y Accesorios",
+        "url": "https://www.mercadolibre.com.ar/c/camaras-y-accesorios#menu=categories",
+        "parent_text": "CategoríasVehículosInmueblesSupermercadoTecnologíaCompra InternacionalHogar y MueblesElectrodomésticosHerramientasConstrucciónDeportes y FitnessAccesorios para VehículosPara tu NegocioMascotasModaJuegos y JuguetesBebésBelleza y Cuidado PersonalSalud y Equipamiento MédicoIndustrias y OficinasAgroProductos SustentablesServiciosMás vendidosTiendas oficialesVer más categoríasTecnologíaCelulares y TeléfonosCelulares y SmartphonesAccesorios para CelularesRepuestos de CelularesComputaciónComponentes de PCImpresiónTablets y AccesoriosPCConectividad y RedesMonitores y AccesoriosCámaras y AccesoriosCámaras DigitalesAccesorios para CámarasFilmadoras y Cámaras de AcciónElectrónica, Audio y VideoAudioAccesorios para Audio y VideoComponentes ElectrónicosDrones y AccesoriosAudio para VehículosTelevisoresConsolas y VideojuegosVideojuegosPara PlayStationPara NintendoTelevisores"
+      }
+    ],
+    "eventos_mouse": [],
+    "force_hover": [
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Adornos y Decoración del Hogar",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/adornos-decoracion-hogar/"
-          },
-          {
-            "title_item": "Bazar y Cocina",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/bazar-cocina/"
-          },
-          {
-            "title_item": "Baños",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/banos/"
-          },
-          {
-            "title_item": "Camas, Colchones y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/camas-colchones-accesorios/"
-          },
-          {
-            "title_item": "Cuidado del Hogar y Lavandería",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/cuidado-hogar-lavanderia/"
-          },
-          {
-            "title_item": "Iluminación para el Hogar",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/iluminacion-hogar/"
-          },
-          {
-            "title_item": "Jardin y Aire Libre",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/jardin-aire-libre/"
-          },
-          {
-            "title_item": "Muebles para el Hogar",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/muebles-hogar/"
-          },
-          {
-            "title_item": "Organización para el Hogar",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/organizacion-hogar/"
-          },
-          {
-            "title_item": "Seguridad para el Hogar",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/seguridad-hogar/"
-          },
-          {
-            "title_item": "Textiles de Hogar y Decoración",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/textiles-hogar-decoracion/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/hogar-muebles-jardin/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list.nav-categs-departments__list--dynamic"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Industrias y Oficinas",
-            "url": "https://www.mercadolibre.com.ar/c/industrias-y-oficinas#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1499&c_uid=e9d598c4-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Arquitectura y Diseño",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/arquitectura-diseno/"
-          },
-          {
-            "title_item": "Embalaje y Logística",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/embalaje-logistica/"
-          },
-          {
-            "title_item": "Equipamiento Médico",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/equipamiento-medico/"
-          },
-          {
-            "title_item": "Equipamiento para Comercios",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/equipamiento-comercios/"
-          },
-          {
-            "title_item": "Equipamiento para Oficinas",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/equipamiento-oficinas/"
-          },
-          {
-            "title_item": "Gastronomía y Hotelería",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/gastronomia-hoteleria/"
-          },
-          {
-            "title_item": "Gráfica e Impresión",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/grafica-impresion/"
-          },
-          {
-            "title_item": "Herramientas Industriales",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/herramientas-industriales/"
-          },
-          {
-            "title_item": "Publicidad y Promoción",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/publicidad-promocion/"
-          },
-          {
-            "title_item": "Seguridad Laboral",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/seguridad-laboral/"
-          },
-          {
-            "title_item": "Textil y Calzado",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/textil-calzado/"
-          },
-          {
-            "title_item": "Uniformes y Ropa de Trabajo",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/uniformes-ropa-trabajo/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/industrias-oficinas/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Inmuebles",
-            "url": "https://www.mercadolibre.com.ar/c/inmuebles#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1459&c_uid=e9d598c5-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Camas Náuticas",
-            "url": "https://inmuebles.mercadolibre.com.ar/camas-nauticas/"
-          },
-          {
-            "title_item": "Campos",
-            "url": "https://inmuebles.mercadolibre.com.ar/campos/"
-          },
-          {
-            "title_item": "Casas",
-            "url": "https://inmuebles.mercadolibre.com.ar/casas/"
-          },
-          {
-            "title_item": "Cocheras",
-            "url": "https://inmuebles.mercadolibre.com.ar/cocheras/"
-          },
-          {
-            "title_item": "Consultorios",
-            "url": "https://inmuebles.mercadolibre.com.ar/consultorios/"
-          },
-          {
-            "title_item": "Departamentos",
-            "url": "https://inmuebles.mercadolibre.com.ar/departamentos/"
-          },
-          {
-            "title_item": "Depósitos y Galpones",
-            "url": "https://inmuebles.mercadolibre.com.ar/depositos-y-galpones/"
-          },
-          {
-            "title_item": "Fondo de Comercio",
-            "url": "https://inmuebles.mercadolibre.com.ar/fondo-de-comercio/"
-          },
-          {
-            "title_item": "Locales",
-            "url": "https://inmuebles.mercadolibre.com.ar/locales/"
-          },
-          {
-            "title_item": "Oficinas",
-            "url": "https://inmuebles.mercadolibre.com.ar/oficinas/"
-          },
-          {
-            "title_item": "Otros Inmuebles",
-            "url": "https://inmuebles.mercadolibre.com.ar/otros/"
-          },
-          {
-            "title_item": "PH",
-            "url": "https://inmuebles.mercadolibre.com.ar/ph/"
-          },
-          {
-            "title_item": "Parcelas, Nichos y Bóvedas",
-            "url": "https://inmuebles.mercadolibre.com.ar/bovedas-nichos-parcelas/"
-          },
-          {
-            "title_item": "Quintas",
-            "url": "https://inmuebles.mercadolibre.com.ar/quintas/"
-          },
-          {
-            "title_item": "Terrenos y Lotes",
-            "url": "https://inmuebles.mercadolibre.com.ar/terrenos-lotes/"
-          },
-          {
-            "title_item": "Tiempo Compartido",
-            "url": "https://inmuebles.mercadolibre.com.ar/tiempo-compartido/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Instrumentos Musicales",
-            "url": "https://www.mercadolibre.com.ar/c/instrumentos-musicales#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1182&c_uid=e9d598c6-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Baterías y Percusión",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/baterias-percusion/"
-          },
-          {
-            "title_item": "Equipos de DJ y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/equipos-dj-accesorios/"
-          },
-          {
-            "title_item": "Estudio de Grabación",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/estudio-grabacion/"
-          },
-          {
-            "title_item": "Instrumentos de Cuerdas",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/instrumentos-cuerdas/"
-          },
-          {
-            "title_item": "Instrumentos de Viento",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/instrumentos-viento/"
-          },
-          {
-            "title_item": "Metrónomos",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/metronomos/"
-          },
-          {
-            "title_item": "Micrófonos y Amplificadores",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/microfonos-amplificadores/"
-          },
-          {
-            "title_item": "Parlantes y Bafles",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/parlantes-bafles/"
-          },
-          {
-            "title_item": "Partituras y Letras",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/partituras-letras/"
-          },
-          {
-            "title_item": "Pedales y Accesorios",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/pedales-accesorios/"
-          },
-          {
-            "title_item": "Teclados y Pianos",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/teclados-pianos/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/instrumentos-musicales/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Joyas y Relojes",
-            "url": "https://www.mercadolibre.com.ar/c/joyas-y-relojes#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA3937&c_uid=e9d598c7-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Exhibidores y Joyeros",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/exhibidores-joyeros/"
-          },
-          {
-            "title_item": "Insumos para Joyería",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/insumos-joyeria/"
-          },
-          {
-            "title_item": "Joyas y Bijouterie",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/joyas-bijouterie/"
-          },
-          {
-            "title_item": "Piedra Preciosa y Semipreciosa",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/piedra-preciosa-semipreciosa/"
-          },
-          {
-            "title_item": "Piercings",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/piercings/"
-          },
-          {
-            "title_item": "Plumas y Lapiceras de Lujo",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/plumas-lapiceras-lujo/"
-          },
-          {
-            "title_item": "Relojes",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/relojes/"
-          },
-          {
-            "title_item": "Repuestos para Relojes",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/repuestos-relojes/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/joyas-relojes/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Juegos y Juguetes",
-            "url": "https://www.mercadolibre.com.ar/c/juegos-y-juguetes#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1132&c_uid=e9d598c8-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Armas y Lanzadores de Juguete",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/armas-lanzadores-juguete/"
-          },
-          {
-            "title_item": "Arte y Manualidades",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/arte-manualidades/"
-          },
-          {
-            "title_item": "Casas y Carpas para Niños",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/casas-carpas-ninos/"
-          },
-          {
-            "title_item": "Electrónicos para Niños",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/electronicos-ninos/"
-          },
-          {
-            "title_item": "Figuritas, Álbumes y Cromos",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/figuritas-albumes-cromos/"
-          },
-          {
-            "title_item": "Hobbies",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/hobbies/"
-          },
-          {
-            "title_item": "Instrumentos Musicales",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/instrumentos-musicales/"
-          },
-          {
-            "title_item": "Juegos de Agua y Playa",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juegos-agua-playa/"
-          },
-          {
-            "title_item": "Juegos de Mesa y Cartas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juegos-mesa-cartas/"
-          },
-          {
-            "title_item": "Juegos de Plaza y Aire Libre",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juegos-plaza-aire-libre/"
-          },
-          {
-            "title_item": "Juegos de Salón",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juegos-salon/"
-          },
-          {
-            "title_item": "Juguetes Antiestrés e Ingenio",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes-antiestres-ingenio/"
-          },
-          {
-            "title_item": "Juguetes de Bromas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes-bromas/"
-          },
-          {
-            "title_item": "Juguetes de Construcción",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes-construccion/"
-          },
-          {
-            "title_item": "Juguetes de Oficios",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes-oficios/"
-          },
-          {
-            "title_item": "Juguetes para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/juguetes-bebes/"
-          },
-          {
-            "title_item": "Mesas y Sillas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/mesas-sillas/"
-          },
-          {
-            "title_item": "Muñecos y Muñecas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/munecos-munecas/"
-          },
-          {
-            "title_item": "Patines y Patinetas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/patines-patinetas/"
-          },
-          {
-            "title_item": "Peloteros y Castillos",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/peloteros-castillos/"
-          },
-          {
-            "title_item": "Peluches",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/peluches/"
-          },
-          {
-            "title_item": "Títeres y Marionetas",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/titeres-marionetas/"
-          },
-          {
-            "title_item": "Vehículos Montables para Niños",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/vehiculos-montables-ninos/"
-          },
-          {
-            "title_item": "Vehículos de Juguete",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/vehiculos-juguete/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/juegos-juguetes/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Libros, Revistas y Comics",
-            "url": "https://www.mercadolibre.com.ar/c/libros-revistas-y-comics#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA3025&c_uid=e9d598c9-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Catálogos",
-            "url": "https://listado.mercadolibre.com.ar/libros-revistas-comics/catalogos/"
-          },
-          {
-            "title_item": "Ebooks",
-            "url": "https://listado.mercadolibre.com.ar/libros-revistas-comics/ebooks/"
-          },
-          {
-            "title_item": "Libros Físicos",
-            "url": "https://listado.mercadolibre.com.ar/libros-revistas-comics/libros-fisicos/"
-          },
-          {
-            "title_item": "Revistas",
-            "url": "https://listado.mercadolibre.com.ar/libros-revistas-comics/revistas/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/libros-revistas-comics/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Música, Películas y Series",
-            "url": "https://www.mercadolibre.com.ar/c/musica-peliculas-y-series#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1168&c_uid=e9d598ca-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Contenido Deportivo",
-            "url": "https://listado.mercadolibre.com.ar/contenido-deportivo/"
-          },
-          {
-            "title_item": "Cursos Completos",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/cursos-completos/"
-          },
-          {
-            "title_item": "Música",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/musica/"
-          },
-          {
-            "title_item": "Peliculas Online",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/peliculas-online/"
-          },
-          {
-            "title_item": "Películas Físicas",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/peliculas-fisicas/"
-          },
-          {
-            "title_item": "Series de TV",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/series-tv/"
-          },
-          {
-            "title_item": "Series y Tv Shows Online",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/series-tv-shows-online/"
-          },
-          {
-            "title_item": "Videos de Recetas y DIY",
-            "url": "https://listado.mercadolibre.com.ar/videos-recetas-diy/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/musica-peliculas-series/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Ropa y Accesorios",
-            "url": "https://www.mercadolibre.com.ar/c/ropa-y-accesorios#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1430&c_uid=e9d598cb-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Abrigos",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/abrigos/"
-          },
-          {
-            "title_item": "Accesorios de Moda",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/accesorios-moda/"
-          },
-          {
-            "title_item": "Bermudas y Shorts",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/bermudas-shorts/"
-          },
-          {
-            "title_item": "Blusas",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/blusas/"
-          },
-          {
-            "title_item": "Calzado",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/calzado/"
-          },
-          {
-            "title_item": "Calzas",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/calzas/"
-          },
-          {
-            "title_item": "Camisas",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/camisas/"
-          },
-          {
-            "title_item": "Enteritos",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/enteritos/"
-          },
-          {
-            "title_item": "Equipaje, Bolsos y Carteras",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/equipaje-bolsos-carteras/"
-          },
-          {
-            "title_item": "Indumentaria Laboral y Escolar",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/indumentaria-laboral-escolar/"
-          },
-          {
-            "title_item": "Kimonos",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/kimonos/"
-          },
-          {
-            "title_item": "Lotes de Ropa",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/lotes-ropa/"
-          },
-          {
-            "title_item": "Pantalones",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/pantalones/"
-          },
-          {
-            "title_item": "Polleras",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/polleras/"
-          },
-          {
-            "title_item": "Remeras, Musculosas y Chombas",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/remeras-musculosas-chombas/"
-          },
-          {
-            "title_item": "Ropa Deportiva",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-deportiva/"
-          },
-          {
-            "title_item": "Ropa Interior y de Dormir",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-interior-dormir/"
-          },
-          {
-            "title_item": "Ropa y Calzado para Bebés",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/ropa-calzado-bebes/"
-          },
-          {
-            "title_item": "Trajes",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/trajes/"
-          },
-          {
-            "title_item": "Trajes de Baño",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/trajes-bano/"
-          },
-          {
-            "title_item": "Vestidos",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/vestidos/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/ropa-accesorios/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Salud y Equipamiento Médico",
-            "url": "https://www.mercadolibre.com.ar/c/salud-y-equipamiento-medico#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA409431&c_uid=e9d598cc-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Cuidado de la Salud",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/cuidado-salud/"
-          },
-          {
-            "title_item": "Equipamiento Médico",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/equipamiento-medico/"
-          },
-          {
-            "title_item": "Masajes",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/masajes/"
-          },
-          {
-            "title_item": "Movilidad",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/movilidad/"
-          },
-          {
-            "title_item": "Ortopedia",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/ortopedia/"
-          },
-          {
-            "title_item": "Suplementos Alimenticios",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/suplementos-alimenticios/"
-          },
-          {
-            "title_item": "Terapias Alternativas",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/terapias-alternativas/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/salud-equipamiento-medico/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Servicios",
-            "url": "https://www.mercadolibre.com.ar/c/servicios#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1540&c_uid=e9d598cd-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Asesoramiento Contable y Legal",
-            "url": "https://servicios.mercadolibre.com.ar/asesoramiento-contable-legal/"
-          },
-          {
-            "title_item": "Belleza y Cuidado Personal",
-            "url": "https://servicios.mercadolibre.com.ar/belleza-cuidado-personal/"
-          },
-          {
-            "title_item": "Comunicación y diseño",
-            "url": "https://servicios.mercadolibre.com.ar/comunicacion-diseno/"
-          },
-          {
-            "title_item": "Cursos y Clases",
-            "url": "https://servicios.mercadolibre.com.ar/cursos-clases/"
-          },
-          {
-            "title_item": "Delivery",
-            "url": "https://servicios.mercadolibre.com.ar/delivery/"
-          },
-          {
-            "title_item": "Fiestas y Eventos",
-            "url": "https://servicios.mercadolibre.com.ar/fiestas-eventos/"
-          },
-          {
-            "title_item": "Fotografía, Música y Cine",
-            "url": "https://servicios.mercadolibre.com.ar/fotografia-musica-cine/"
-          },
-          {
-            "title_item": "Hogar y Construcción",
-            "url": "https://servicios.mercadolibre.com.ar/hogar-construccion/"
-          },
-          {
-            "title_item": "Imprenta",
-            "url": "https://servicios.mercadolibre.com.ar/imprenta/"
-          },
-          {
-            "title_item": "Mantenimiento de Vehículos",
-            "url": "https://servicios.mercadolibre.com.ar/mantenimiento-de-vehiculos/"
-          },
-          {
-            "title_item": "Medicina y Salud",
-            "url": "https://servicios.mercadolibre.com.ar/medicina-salud/"
-          },
-          {
-            "title_item": "Otros Servicios",
-            "url": "https://servicios.mercadolibre.com.ar/otros/"
-          },
-          {
-            "title_item": "Ropa y Moda",
-            "url": "https://servicios.mercadolibre.com.ar/ropa-moda/"
-          },
-          {
-            "title_item": "Servicios para Mascotas",
-            "url": "https://servicios.mercadolibre.com.ar/mascotas/"
-          },
-          {
-            "title_item": "Servicios para Oficinas",
-            "url": "https://servicios.mercadolibre.com.ar/oficinas/"
-          },
-          {
-            "title_item": "Tecnología",
-            "url": "https://servicios.mercadolibre.com.ar/tecnologia/"
-          },
-          {
-            "title_item": "Transporte",
-            "url": "https://servicios.mercadolibre.com.ar/transporte/"
-          },
-          {
-            "title_item": "Viajes y Turismo",
-            "url": "https://servicios.mercadolibre.com.ar/viajes-turismo/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Souvenirs, Cotillón y Fiestas",
-            "url": "https://www.mercadolibre.com.ar/c/souvenirs-cotillon-y-fiestas#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA9304&c_uid=e9d598ce-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Botellas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/botellas/"
-          },
-          {
-            "title_item": "Cotillón",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/cotillon/"
-          },
-          {
-            "title_item": "Decoración para Fiestas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/decoracion-fiestas/"
-          },
-          {
-            "title_item": "Descartables para Fiestas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/descartables-fiestas/"
-          },
-          {
-            "title_item": "Disfraces y Cosplay",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/disfraces-cosplay/"
-          },
-          {
-            "title_item": "Equipamiento para Fiestas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/equipamiento-fiestas/"
-          },
-          {
-            "title_item": "Espuma, Serpentina y Confeti",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/espuma-serpentina-confeti/"
-          },
-          {
-            "title_item": "Invitaciones",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/invitaciones/"
-          },
-          {
-            "title_item": "Kits Imprimibles para Fiestas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/kits-imprimibles-fiestas/"
-          },
-          {
-            "title_item": "Props para Photo Booths",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/props-photo-booths/"
-          },
-          {
-            "title_item": "Souvenirs",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/souvenirs/"
-          },
-          {
-            "title_item": "Souvenirs para Fiestas",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/souvenirs-fiestas/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/souvenirs-cotillon-fiestas/otros/"
-          }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
       },
       {
-        "tagName": "DIV",
-        "className": "categories__container",
-        "categories__title": [
-          {
-            "title_category": "Otras categorías",
-            "url": "https://www.mercadolibre.com.ar/c/otras-categorias#c_id=/home/categories/category-l1/category-l1&c_category_id=MLA1953&c_uid=e9d598cf-798b-11f0-805f-5f4f34f9bba5"
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ],
-        "categories__item": [
-          {
-            "title_item": "Artículos para Fumadores",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/articulos-fumadores/"
-          },
-          {
-            "title_item": "Bundle",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/bundle/"
-          },
-          {
-            "title_item": "Coberturas Extendidas",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/coberturas-extendidas/"
-          },
-          {
-            "title_item": "Criptomonedas",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/criptomonedas/"
-          },
-          {
-            "title_item": "Esoterismo",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/esoterismo/"
-          },
-          {
-            "title_item": "Gift Cards",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/gift-cards/"
-          },
-          {
-            "title_item": "Health",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/health/"
-          },
-          {
-            "title_item": "Hornos Crematorios",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/hornos-crematorios/"
-          },
-          {
-            "title_item": "Insumos para Tatuajes",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/insumos-tatuajes/"
-          },
-          {
-            "title_item": "Licencias para Taxis",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/licencias-taxis/"
-          },
-          {
-            "title_item": "Mangas de Viento",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/mangas-viento/"
-          },
-          {
-            "title_item": "Suscripción a MELI Plus",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/suscripcion-meli-plus/"
-          },
-          {
-            "title_item": "Otros",
-            "url": "https://listado.mercadolibre.com.ar/otras-categorias/otros/"
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
           }
-        ]
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": ".nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li[class*=\"nav-categs-departments__list\"]"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Inmuebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Supermercado",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--dynamic",
+          "textContent": "Tecnología",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Compra Internacional",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Hogar y Muebles",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Electrodomésticos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Herramientas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Construcción",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Deportes y Fitness",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Accesorios para Vehículos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Para tu Negocio",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Mascotas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Moda",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Juegos y Juguetes",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Bebés",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Belleza y Cuidado Personal",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Salud y Equipamiento Médico",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Industrias y Oficinas",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Agro",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Productos Sustentables",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Servicios",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Más vendidos",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Tiendas oficiales",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
+      },
+      {
+        "elemento": {
+          "tagName": "LI",
+          "className": "nav-categs-departments__list nav-categs-departments__list--static",
+          "textContent": "Ver más categorías",
+          "isVisible": true,
+          "display": "list-item",
+          "visibility": "visible",
+          "hasChildren": {
+            "0": {}
+          }
+        },
+        "selector_usado": "li.nav-categs-departments__list"
       }
     ]
   }

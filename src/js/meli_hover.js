@@ -8,7 +8,7 @@ import { title } from "process"
 // const __filename = fileURLToPath(import.meta.url)
 // const __dirname = dirname(__filename)
 
-const gotoPage = 'https://www.mercadolibre.com.ar/categorias#menu=categories' //'https://www.mercadolibre.com.ar'
+const gotoPage = 'https://www.mercadolibre.com.ar'
 const filePath = '/app/src/json_test/meli_hover_results.json'
 
 async function extractCategoriesWithHover() {
@@ -68,19 +68,16 @@ async function extractCategoriesWithHover() {
         console.log("Acceso exitoso, iniciando extracción con hover...")  ////// 5
         
         // MÉTODO 1: Hover directo en elementos de navegación
-        //const categoriasConHover = await extractWithDirectHover(page)
+        const categoriasConHover = await extractWithDirectHover(page)
         
         // MÉTODO 2: Forzar visibilidad de elementos ocultos
-        //const categoriasForzadas = await extractWithForcedVisibility(page)
+        const categoriasForzadas = await extractWithForcedVisibility(page)
         
         // MÉTODO 3: Interceptar eventos de mouse
-        //const categoriasConEventos = await extractWithMouseEvents(page)
+        const categoriasConEventos = await extractWithMouseEvents(page)
 
         // MÉTODO 4: Forzar hover en elementos ocultos
-        // const categoriasForzadasHover = await forceHover(page)
-
-        // MÉTODO 5: Buscar en CATEGORIAS -> https://www.mercadolibre.com.ar/categorias#menu=categories
-        const categoriasDesdeCategorias = await buscarEnCategorias(page)
+        const categoriasForzadasHover = await forceHover(page)
 
         // Combinar resultados
         const resultadoFinal = {
@@ -88,11 +85,10 @@ async function extractCategoriesWithHover() {
             source: "MercadoLibre Argentina",
             url: currentUrl,
             metodos: {
-                // hover_directo: categoriasConHover,
-                // visibilidad_forzada: categoriasForzadas,
-                // eventos_mouse: categoriasConEventos,
-                // force_hover: categoriasForzadasHover,
-                desde_categorias: categoriasDesdeCategorias
+                hover_directo: categoriasConHover,
+                visibilidad_forzada: categoriasForzadas,
+                eventos_mouse: categoriasConEventos,
+                force_hover: categoriasForzadasHover,
             },
         }
         
@@ -100,8 +96,6 @@ async function extractCategoriesWithHover() {
         await fs.writeFile(filePath, JSON.stringify(resultadoFinal, null, 2))
 
         console.log("Resultados guardados en meli_hover_results.json")
-        console.log(`Total de elementos extraídos: ${resultadoFinal.metodos.desde_categorias.length}`)  //// change metodos
-
     } else {
         console.log("No se pudo acceder correctamente a MercadoLibre")  ///// 5
     }
@@ -339,54 +333,6 @@ async function forceHover(page) {
     console.log(`Total elementos procesados: ${result.length}`)
     return result
 }
-
-async function buscarEnCategorias(page) {
-    console.log("\n MÉTODO 5: En Categorías...") ///////
-    const result = []
-    const selectors = [
-        '.categories__container'
-    ]
-
-    for(const selector of selectors){
-        try {
-            const elements = await page.$$(selector)
-            console.log(`Encontrados ${elements.length} elementos con selector: ${selector}`) /////
-            for(const element of elements){
-                const elementCat = await element.evaluate(el => {
-                    const categories__title = el.querySelectorAll('h2.categories__title a')
-                    const categories__item = el.querySelectorAll('li.categories__item a')
-                    return {
-                        tagName: el.tagName,
-                        className: el.className,
-                        categories__title: Array.from(categories__title).map(link => ({
-                            title_category: link.textContent.trim(),
-                            url: link.href,                        
-                        })),
-                        categories__item: Array.from(categories__item).map(link => ({
-                            title_item: link.textContent.trim(),
-                            url: link.href,
-                        }))
-                    }
-                })
-
-                console.log(`Elemento encontrado: ${elementCat.className}`) /////
-                result.push(elementCat)
-            }
-
-
-
-
-
-
-            
-        } catch(error){ console.log(`Error con selector ${selector}: ${error.message}`) }
-    }
-
-
-    return result
-}
-
-
 
 
 

@@ -1,33 +1,73 @@
 import puppeteer from 'puppeteer'
 import fs from 'fs/promises'
-import { join, dirname } from 'path'
-import { fileURLToPath } from 'url'
+import { join } from 'path'
+import { buscarEnCategories } from "./modules/buscarEnCategories.js"
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+const gotoPage = 'https://www.mercadolibre.com.ar/categorias'
+const filePath = '/app/src/json_test/'
 
 async function extraerTodosLosProductos() {
     const browser = await puppeteer.launch({
         headless: true,
+        executablePath: '/usr/bin/google-chrome',
         args: [
             '--no-sandbox',
             '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage'
-        ]
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--disable-gpu',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-renderer-backgrounding',
+            '--disable-features=TranslateUI',
+            '--disable-ipc-flooding-protection',
+            '--disable-web-security',
+            '--disable-features=VizDisplayCompositor',
+            '--window-size=1366,768',
+            '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        ],
+        slowMo: 100,
     })
 
     const page = await browser.newPage()
+
+    await page.setExtraHTTPHeaders({
+        'Accept-Language': 'es-AR,es;q=0.9,en;q=0.8',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    })
+
+        console.log("Intentando acceder a MercadoLibre...")  ///// 1
+    
+    try {
+        await page.goto(gotoPage, { 
+            waitUntil: 'networkidle2',
+            timeout: 30000 
+        })
+        console.log("Página cargada correctamente")  /////// 2
+    } catch (error) {
+        console.log("Error cargando página:", error.message) ///// 2
+        await browser.close()
+        return
+    }
+
     let todosLosProductos = []
 
     try {
         // PASO 1: Obtener todas las categorías
         console.log('Extrayendo categorías...')
-        const categorias = await extraerCategorias(page)
+        const categorias = await buscarEnCategories(page)
+        await new Promise(resolve => setTimeout(resolve, 2000))
         console.log(`Categorías encontradas: ${categorias.length}`)
+
 
         // PASO 2: Extraer productos de cada categoría
         for (const categoria of categorias) {
-            console.log(`Procesando categoría: ${categoria.nombre}`)
+
+            todosLosProductos.push(categoria)
+
+            // console.log(categoria)
+
             const productosCategoria = await extraerProductosDeCategoria(page, categoria.url)
             
             todosLosProductos.push({
@@ -35,8 +75,6 @@ async function extraerTodosLosProductos() {
                 productos: productosCategoria,
                 total: productosCategoria.length
             })
-
-            // Delay para no sobrecargar el servidor
             await new Promise(resolve => setTimeout(resolve, 2000))
         }
 
@@ -51,7 +89,7 @@ async function extraerTodosLosProductos() {
 }
 
 async function extraerCategorias(page) {
-    await page.goto('https://www.mercadolibre.com.ar/categorias', {
+    await page.goto(gotoPage, {
         waitUntil: 'networkidle2'
     })
 
@@ -123,21 +161,17 @@ async function extraerProductosDeCategoria(page, urlCategoria) {
 
 async function guardarProductos(todosLosProductos) {
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
-    const nombreArchivo = `meli_productos_completo_${timestamp}.json`
+    const nombreArchivo = `meli_extract_products_${timestamp}.json`
     
     const resumen = {
         fechaExtraccion: new Date().toISOString(),
         totalCategorias: todosLosProductos.length,
         totalProductos: todosLosProductos.reduce((sum, cat) => sum + cat.total, 0),
         fuente: 'MercadoLibre Argentina',
-        categorias: todosLosProductos.map(cat => ({
-            categoria: cat.categoria,
-            totalProductos: cat.total
-        })),
-        datos: todosLosProductos
+        categorias: todosLosProductos
     }
 
-    await fs.writeFile(join(__dirname, nombreArchivo), JSON.stringify(resumen, null, 2))
+    await fs.writeFile(join(filePath, nombreArchivo), JSON.stringify(resumen, null, 2))
     console.log(`Productos guardados en: ${nombreArchivo}`)
     console.log(`Total productos extraídos: ${resumen.totalProductos}`)
 }

@@ -1,7 +1,8 @@
 import puppeteer from "puppeteer"
 import fs from "fs/promises"
+import { buscarEnCategories } from "./modules/buscarEnCategories.js"
 
-const gotoPage = 'https://www.mercadolibre.com.ar/categorias#menu=categories'
+const gotoPage = 'https://www.mercadolibre.com.ar/categorias'
 const filePath = '/app/src/json_test/meli_categories_results.json'
 
 async function extractCategoriesWithHover() {
@@ -60,7 +61,7 @@ async function extractCategoriesWithHover() {
     if (currentUrl.includes('mercadolibre')) {
         console.log("Acceso exitoso, iniciando extracción...")
 
-        const categoriasDesdeCategorias = await buscarEnCategorias(page)  ///////
+        const categoriasDesdeCategorias = await buscarEnCategories(page)  ///////
 
         // Combinar resultados
         const resultadoFinal = {
@@ -84,45 +85,6 @@ async function extractCategoriesWithHover() {
     await browser.close()
     console.log("Browser cerrado correctamente END")
 }
-
-
-
-async function buscarEnCategorias(page) {
-    console.log("\n Categorías...")
-    const result = []
-    const selectors = [
-        '.categories__container'
-    ]
-
-    for(const selector of selectors){
-        try {
-            const elements = await page.$$(selector)
-            console.log(`Encontrados ${elements.length} elementos con selector: ${selector}`) /////
-            for(const element of elements){
-                const elementCat = await element.evaluate(el => {
-                    const categories__title = el.querySelectorAll('h2.categories__title a')
-                    const categories__item = el.querySelectorAll('li.categories__item a')
-                    return {
-                        tagName: el.tagName,
-                        className: el.className,
-                        categories__title: Array.from(categories__title).map(link => ({
-                            title_category: link.textContent.trim(),
-                            url: link.href,                        
-                        })),
-                        categories__item: Array.from(categories__item).map(link => ({
-                            title_item: link.textContent.trim(),
-                            url: link.href,
-                        }))
-                    }
-                })
-                console.log(`Elemento encontrado: ${elementCat.className}`) /////
-                result.push(elementCat)
-            }       
-        } catch(error){ console.log(`Error con selector ${selector}: ${error.message}`) }
-    }
-    return result
-}
-
 
 // Ejecutar el script
 extractCategoriesWithHover().then(() => {

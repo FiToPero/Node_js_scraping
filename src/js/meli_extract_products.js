@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 import fs from 'fs/promises'
 import { join } from 'path'
-import { buscarEnCategories } from "./modules/buscarEnCategories.js"
+import { searchCategoriesAndSubcategories } from "./modules/searchCategoriesAndSubcategories.js"
 
 const gotoPage = 'https://www.mercadolibre.com.ar/categorias'
 const filePath = '/app/src/json_test/'
@@ -37,7 +37,7 @@ async function extraerTodosLosProductos() {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     })
 
-        console.log("Intentando acceder a MercadoLibre...")  ///// 1
+    console.log("Intentando acceder a MercadoLibre...")  ///// 1
     
     try {
         await page.goto(gotoPage, { 
@@ -56,28 +56,31 @@ async function extraerTodosLosProductos() {
     try {
         // PASO 1: Obtener todas las categorías
         console.log('Extrayendo categorías...')
-        const categorias = await buscarEnCategories(page)
+        const categories = await searchCategoriesAndSubcategories(page)
         await new Promise(resolve => setTimeout(resolve, 2000))
-        console.log(`Categorías encontradas: ${categorias.length}`)
-
+        console.log(`Categorías encontradas: ${categories.length}`)  //// 3
 
         // PASO 2: Extraer productos de cada categoría
-        for (const categoria of categorias) {
+        for (const category of categories) {
+            console.log(category.category[0].title_category)  // Nombre de la categoría principal
+            for (const item of category.category[0].sub_category) {
+                console.log(`  Procesando Sub_categoría: ${item.title_item} --- (${item.url})`)
 
-            todosLosProductos.push(categoria)
+                const productosSubCategoria = await extraerProductosDeCategoria(page, item.url)
 
-            // console.log(categoria)
-
-            const productosCategoria = await extraerProductosDeCategoria(page, categoria.url)
+                todosLosProductos.push({
+                    categoria: category[0],
+                    sub_categoria: item.title_item,
+                    productos: productosSubCategoria,
+                    total: productosSubCategoria.length
+                })
+            }
+break /////////////
             
-            todosLosProductos.push({
-                categoria: categoria.nombre,
-                productos: productosCategoria,
-                total: productosCategoria.length
-            })
             await new Promise(resolve => setTimeout(resolve, 2000))
         }
 
+        console.log(`Total productos extraídos: ${todosLosProductos.length}`)
         // PASO 3: Guardar todos los productos
         await guardarProductos(todosLosProductos)
         
@@ -88,75 +91,47 @@ async function extraerTodosLosProductos() {
     }
 }
 
-async function extraerCategorias(page) {
-    await page.goto(gotoPage, {
-        waitUntil: 'networkidle2'
-    })
-
-    return await page.evaluate(() => {
-        const enlaces = document.querySelectorAll('.categories__container a[href*="/c/"]')
-        return Array.from(enlaces).map(link => ({
-            nombre: link.textContent.trim(),
-            url: link.href,
-            categoria: link.href.split('/c/')[1]?.split('/')[0]
-        }))
-    })
-}
-
 async function extraerProductosDeCategoria(page, urlCategoria) {
-    const productos = []
-    let paginaActual = 1
-    const maxPaginas = 100 // Límite para evitar bucles infinitos
+    const products = []
+    const contador = 0
+    const selector = 'a.poly-component__title' 
 
-    while (paginaActual <= maxPaginas) {
-        console.log(`  Página ${paginaActual}...`)
+    console.log(`  extrayendo productos de la página ${urlCategoria}...`)  /////// 4
+
+    try {
+        await page.goto(urlCategoria, { waitUntil: 'networkidle2' })
+
+        const productsInPage = await page.$$(selector)
         
-        const urlPagina = `${urlCategoria}?offset=${(paginaActual - 1) * 48}`
-        
-        try {
-            await page.goto(urlPagina, { waitUntil: 'networkidle2' })
-            
-            const productosEnPagina = await page.evaluate(() => {
-                const items = document.querySelectorAll('.ui-search-result')
-                
-                return Array.from(items).map(item => {
-                    const titulo = item.querySelector('.ui-search-item__title')?.textContent?.trim()
-                    const precio = item.querySelector('.price-tag-fraction')?.textContent?.trim()
-                    const enlace = item.querySelector('.ui-search-item__group__element a')?.href
-                    const imagen = item.querySelector('.ui-search-result-image__element')?.src
-                    const vendedor = item.querySelector('.ui-search-official-store-label')?.textContent?.trim()
-                    
+        for(const product of productsInPage) {
+            if(contador == 20){break}
+            contador++
+            console.log(`  Extrayendo producto...`)  /////// 5
+            try{
+                const productInfo = await product.evaluate(el => {
                     return {
-                        titulo,
-                        precio: precio ? `$${precio}` : 'Sin precio',
-                        url: enlace,
-                        imagen,
-                        vendedor: vendedor || 'Vendedor particular',
-                        fechaExtraccion: new Date().toISOString()
+                        tagName: el.tagName,
+                        textContent: el.textContent,
+                        href: el.href,
+                        className: el.className,
+                        innerHTML: el.innerHTML      //.substring(0, 200)  // Solo primeros 200 chars
                     }
-                }).filter(producto => producto.titulo && producto.url)
-            })
-
-            if (productosEnPagina.length === 0) {
-                console.log('  No hay más productos, finalizando categoría')
-                break
+                })
+                products.push(productInfo)
+                console.log(`Producto extraído: ${productInfo.textContent} (${productInfo.href})`)
+            }catch(error){
+                console.log(`Error extrayendo producto: ${error.message}`)
             }
-
-            productos.push(...productosEnPagina)
-            console.log(`  Productos extraídos: ${productosEnPagina.length}`)
-            
-            paginaActual++
-            
-            // Delay entre páginas
-            await new Promise(resolve => setTimeout(resolve, 1500))
-            
-        } catch (error) {
-            console.error(`Error en página ${paginaActual}:`, error.message)
-            break
         }
-    }
 
-    return productos
+        await new Promise(resolve => setTimeout(resolve, 1500))
+        
+    } catch (error) {
+        console.error(`Error en página:`, error.message)
+    }
+    
+
+    return products
 }
 
 async function guardarProductos(todosLosProductos) {
@@ -168,7 +143,7 @@ async function guardarProductos(todosLosProductos) {
         totalCategorias: todosLosProductos.length,
         totalProductos: todosLosProductos.reduce((sum, cat) => sum + cat.total, 0),
         fuente: 'MercadoLibre Argentina',
-        categorias: todosLosProductos
+        categories: todosLosProductos
     }
 
     await fs.writeFile(join(filePath, nombreArchivo), JSON.stringify(resumen, null, 2))

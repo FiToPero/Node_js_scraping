@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer"
 import fs from "fs/promises"
-import { buscarEnCategories } from "./modules/buscarEnCategories.js"
+import { searchCategoriesAndSubcategories } from "./modules/searchCategoriesAndSubcategories.js"
 
 const gotoPage = 'https://www.mercadolibre.com.ar/categorias'
 const filePath = '/app/src/json_test/meli_categories_results.json'
@@ -61,7 +61,7 @@ async function extractCategoriesWithHover() {
     if (currentUrl.includes('mercadolibre')) {
         console.log("Acceso exitoso, iniciando extracción...")
 
-        const categoriasDesdeCategorias = await buscarEnCategories(page)  ///////
+        const categoriasDesdeCategorias = await searchCategoriesAndSubcategories(page)  ///////
 
         // Combinar resultados
         const resultadoFinal = {
